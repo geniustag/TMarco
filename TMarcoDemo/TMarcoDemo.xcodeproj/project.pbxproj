@@ -1,0 +1,628 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7546CC159F39231D68E75635 /* libPods-TMarcoDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 80477C5C88C76DD328876AA2 /* libPods-TMarcoDemo.a */; };
+		880D85D21EC55A0200922EC2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 880D85D11EC55A0200922EC2 /* main.m */; };
+		880D85D51EC55A0200922EC2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 880D85D41EC55A0200922EC2 /* AppDelegate.m */; };
+		880D85D81EC55A0200922EC2 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 880D85D71EC55A0200922EC2 /* ViewController.m */; };
+		880D85DB1EC55A0200922EC2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 880D85D91EC55A0200922EC2 /* Main.storyboard */; };
+		880D85DD1EC55A0200922EC2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 880D85DC1EC55A0200922EC2 /* Assets.xcassets */; };
+		880D85E01EC55A0200922EC2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 880D85DE1EC55A0200922EC2 /* LaunchScreen.storyboard */; };
+		880D85EB1EC55A0200922EC2 /* TMarcoDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 880D85EA1EC55A0200922EC2 /* TMarcoDemoTests.m */; };
+		880D85F61EC55A0200922EC2 /* TMarcoDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 880D85F51EC55A0200922EC2 /* TMarcoDemoUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		880D85E71EC55A0200922EC2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 880D85C51EC55A0200922EC2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 880D85CC1EC55A0200922EC2;
+			remoteInfo = TMarcoDemo;
+		};
+		880D85F21EC55A0200922EC2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 880D85C51EC55A0200922EC2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 880D85CC1EC55A0200922EC2;
+			remoteInfo = TMarcoDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5F818B56FD3321210AFB5D7C /* Pods-TMarcoDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TMarcoDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-TMarcoDemo/Pods-TMarcoDemo.release.xcconfig"; sourceTree = "<group>"; };
+		80477C5C88C76DD328876AA2 /* libPods-TMarcoDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TMarcoDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		880D85CD1EC55A0200922EC2 /* TMarcoDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TMarcoDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		880D85D11EC55A0200922EC2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		880D85D31EC55A0200922EC2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		880D85D41EC55A0200922EC2 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		880D85D61EC55A0200922EC2 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		880D85D71EC55A0200922EC2 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		880D85DA1EC55A0200922EC2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		880D85DC1EC55A0200922EC2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		880D85DF1EC55A0200922EC2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		880D85E11EC55A0200922EC2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		880D85E61EC55A0200922EC2 /* TMarcoDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TMarcoDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		880D85EA1EC55A0200922EC2 /* TMarcoDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TMarcoDemoTests.m; sourceTree = "<group>"; };
+		880D85EC1EC55A0200922EC2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		880D85F11EC55A0200922EC2 /* TMarcoDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TMarcoDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		880D85F51EC55A0200922EC2 /* TMarcoDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TMarcoDemoUITests.m; sourceTree = "<group>"; };
+		880D85F71EC55A0200922EC2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		880D86041EC55AF800922EC2 /* TCommonMarco.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TCommonMarco.h; sourceTree = "<group>"; };
+		880D86051EC55AF800922EC2 /* TMetaMarco.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TMetaMarco.h; sourceTree = "<group>"; };
+		880D86061EC55AF800922EC2 /* TMethodMarco.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TMethodMarco.h; sourceTree = "<group>"; };
+		880D86071EC55AF800922EC2 /* TObjectifyMarco.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TObjectifyMarco.h; sourceTree = "<group>"; };
+		880D86081EC55BE100922EC2 /* TMarco.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TMarco.h; sourceTree = "<group>"; };
+		C43745311B832B38783B14BE /* Pods-TMarcoDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TMarcoDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TMarcoDemo/Pods-TMarcoDemo.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		880D85CA1EC55A0200922EC2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7546CC159F39231D68E75635 /* libPods-TMarcoDemo.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		880D85E31EC55A0200922EC2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		880D85EE1EC55A0200922EC2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		05EFCE3CE4D7314531A07E72 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C43745311B832B38783B14BE /* Pods-TMarcoDemo.debug.xcconfig */,
+				5F818B56FD3321210AFB5D7C /* Pods-TMarcoDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		19BFB1337728CF61314F09D9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				80477C5C88C76DD328876AA2 /* libPods-TMarcoDemo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		880D85C41EC55A0200922EC2 = {
+			isa = PBXGroup;
+			children = (
+				880D86031EC55A3500922EC2 /* TMarco */,
+				880D85CF1EC55A0200922EC2 /* TMarcoDemo */,
+				880D85E91EC55A0200922EC2 /* TMarcoDemoTests */,
+				880D85F41EC55A0200922EC2 /* TMarcoDemoUITests */,
+				880D85CE1EC55A0200922EC2 /* Products */,
+				05EFCE3CE4D7314531A07E72 /* Pods */,
+				19BFB1337728CF61314F09D9 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		880D85CE1EC55A0200922EC2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				880D85CD1EC55A0200922EC2 /* TMarcoDemo.app */,
+				880D85E61EC55A0200922EC2 /* TMarcoDemoTests.xctest */,
+				880D85F11EC55A0200922EC2 /* TMarcoDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		880D85CF1EC55A0200922EC2 /* TMarcoDemo */ = {
+			isa = PBXGroup;
+			children = (
+				880D85D31EC55A0200922EC2 /* AppDelegate.h */,
+				880D85D41EC55A0200922EC2 /* AppDelegate.m */,
+				880D85D61EC55A0200922EC2 /* ViewController.h */,
+				880D85D71EC55A0200922EC2 /* ViewController.m */,
+				880D85D91EC55A0200922EC2 /* Main.storyboard */,
+				880D85DC1EC55A0200922EC2 /* Assets.xcassets */,
+				880D85DE1EC55A0200922EC2 /* LaunchScreen.storyboard */,
+				880D85E11EC55A0200922EC2 /* Info.plist */,
+				880D85D01EC55A0200922EC2 /* Supporting Files */,
+			);
+			path = TMarcoDemo;
+			sourceTree = "<group>";
+		};
+		880D85D01EC55A0200922EC2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				880D85D11EC55A0200922EC2 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		880D85E91EC55A0200922EC2 /* TMarcoDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				880D85EA1EC55A0200922EC2 /* TMarcoDemoTests.m */,
+				880D85EC1EC55A0200922EC2 /* Info.plist */,
+			);
+			path = TMarcoDemoTests;
+			sourceTree = "<group>";
+		};
+		880D85F41EC55A0200922EC2 /* TMarcoDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				880D85F51EC55A0200922EC2 /* TMarcoDemoUITests.m */,
+				880D85F71EC55A0200922EC2 /* Info.plist */,
+			);
+			path = TMarcoDemoUITests;
+			sourceTree = "<group>";
+		};
+		880D86031EC55A3500922EC2 /* TMarco */ = {
+			isa = PBXGroup;
+			children = (
+				880D86041EC55AF800922EC2 /* TCommonMarco.h */,
+				880D86051EC55AF800922EC2 /* TMetaMarco.h */,
+				880D86061EC55AF800922EC2 /* TMethodMarco.h */,
+				880D86071EC55AF800922EC2 /* TObjectifyMarco.h */,
+				880D86081EC55BE100922EC2 /* TMarco.h */,
+			);
+			path = TMarco;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		880D85CC1EC55A0200922EC2 /* TMarcoDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 880D85FA1EC55A0200922EC2 /* Build configuration list for PBXNativeTarget "TMarcoDemo" */;
+			buildPhases = (
+				4E260DADB96224740A772884 /* [CP] Check Pods Manifest.lock */,
+				880D85C91EC55A0200922EC2 /* Sources */,
+				880D85CA1EC55A0200922EC2 /* Frameworks */,
+				880D85CB1EC55A0200922EC2 /* Resources */,
+				596622BBBAB7CF027B55A7F7 /* [CP] Embed Pods Frameworks */,
+				39F250EB0FB234F41B4AFF78 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TMarcoDemo;
+			productName = TMarcoDemo;
+			productReference = 880D85CD1EC55A0200922EC2 /* TMarcoDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		880D85E51EC55A0200922EC2 /* TMarcoDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 880D85FD1EC55A0200922EC2 /* Build configuration list for PBXNativeTarget "TMarcoDemoTests" */;
+			buildPhases = (
+				880D85E21EC55A0200922EC2 /* Sources */,
+				880D85E31EC55A0200922EC2 /* Frameworks */,
+				880D85E41EC55A0200922EC2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				880D85E81EC55A0200922EC2 /* PBXTargetDependency */,
+			);
+			name = TMarcoDemoTests;
+			productName = TMarcoDemoTests;
+			productReference = 880D85E61EC55A0200922EC2 /* TMarcoDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		880D85F01EC55A0200922EC2 /* TMarcoDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 880D86001EC55A0200922EC2 /* Build configuration list for PBXNativeTarget "TMarcoDemoUITests" */;
+			buildPhases = (
+				880D85ED1EC55A0200922EC2 /* Sources */,
+				880D85EE1EC55A0200922EC2 /* Frameworks */,
+				880D85EF1EC55A0200922EC2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				880D85F31EC55A0200922EC2 /* PBXTargetDependency */,
+			);
+			name = TMarcoDemoUITests;
+			productName = TMarcoDemoUITests;
+			productReference = 880D85F11EC55A0200922EC2 /* TMarcoDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		880D85C51EC55A0200922EC2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = com.tagq.geniustag;
+				TargetAttributes = {
+					880D85CC1EC55A0200922EC2 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+					880D85E51EC55A0200922EC2 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 880D85CC1EC55A0200922EC2;
+					};
+					880D85F01EC55A0200922EC2 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 880D85CC1EC55A0200922EC2;
+					};
+				};
+			};
+			buildConfigurationList = 880D85C81EC55A0200922EC2 /* Build configuration list for PBXProject "TMarcoDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 880D85C41EC55A0200922EC2;
+			productRefGroup = 880D85CE1EC55A0200922EC2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				880D85CC1EC55A0200922EC2 /* TMarcoDemo */,
+				880D85E51EC55A0200922EC2 /* TMarcoDemoTests */,
+				880D85F01EC55A0200922EC2 /* TMarcoDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		880D85CB1EC55A0200922EC2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				880D85E01EC55A0200922EC2 /* LaunchScreen.storyboard in Resources */,
+				880D85DD1EC55A0200922EC2 /* Assets.xcassets in Resources */,
+				880D85DB1EC55A0200922EC2 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		880D85E41EC55A0200922EC2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		880D85EF1EC55A0200922EC2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		39F250EB0FB234F41B4AFF78 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TMarcoDemo/Pods-TMarcoDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4E260DADB96224740A772884 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		596622BBBAB7CF027B55A7F7 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TMarcoDemo/Pods-TMarcoDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		880D85C91EC55A0200922EC2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				880D85D81EC55A0200922EC2 /* ViewController.m in Sources */,
+				880D85D51EC55A0200922EC2 /* AppDelegate.m in Sources */,
+				880D85D21EC55A0200922EC2 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		880D85E21EC55A0200922EC2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				880D85EB1EC55A0200922EC2 /* TMarcoDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		880D85ED1EC55A0200922EC2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				880D85F61EC55A0200922EC2 /* TMarcoDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		880D85E81EC55A0200922EC2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 880D85CC1EC55A0200922EC2 /* TMarcoDemo */;
+			targetProxy = 880D85E71EC55A0200922EC2 /* PBXContainerItemProxy */;
+		};
+		880D85F31EC55A0200922EC2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 880D85CC1EC55A0200922EC2 /* TMarcoDemo */;
+			targetProxy = 880D85F21EC55A0200922EC2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		880D85D91EC55A0200922EC2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				880D85DA1EC55A0200922EC2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		880D85DE1EC55A0200922EC2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				880D85DF1EC55A0200922EC2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		880D85F81EC55A0200922EC2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		880D85F91EC55A0200922EC2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		880D85FB1EC55A0200922EC2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C43745311B832B38783B14BE /* Pods-TMarcoDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TMarcoDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = FromHell.TMarcoDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		880D85FC1EC55A0200922EC2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5F818B56FD3321210AFB5D7C /* Pods-TMarcoDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TMarcoDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = FromHell.TMarcoDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		880D85FE1EC55A0200922EC2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = TMarcoDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = FromHell.TMarcoDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TMarcoDemo.app/TMarcoDemo";
+			};
+			name = Debug;
+		};
+		880D85FF1EC55A0200922EC2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = TMarcoDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = FromHell.TMarcoDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TMarcoDemo.app/TMarcoDemo";
+			};
+			name = Release;
+		};
+		880D86011EC55A0200922EC2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = TMarcoDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = FromHell.TMarcoDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = TMarcoDemo;
+			};
+			name = Debug;
+		};
+		880D86021EC55A0200922EC2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = TMarcoDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = FromHell.TMarcoDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = TMarcoDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		880D85C81EC55A0200922EC2 /* Build configuration list for PBXProject "TMarcoDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				880D85F81EC55A0200922EC2 /* Debug */,
+				880D85F91EC55A0200922EC2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		880D85FA1EC55A0200922EC2 /* Build configuration list for PBXNativeTarget "TMarcoDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				880D85FB1EC55A0200922EC2 /* Debug */,
+				880D85FC1EC55A0200922EC2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		880D85FD1EC55A0200922EC2 /* Build configuration list for PBXNativeTarget "TMarcoDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				880D85FE1EC55A0200922EC2 /* Debug */,
+				880D85FF1EC55A0200922EC2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		880D86001EC55A0200922EC2 /* Build configuration list for PBXNativeTarget "TMarcoDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				880D86011EC55A0200922EC2 /* Debug */,
+				880D86021EC55A0200922EC2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 880D85C51EC55A0200922EC2 /* Project object */;
+}

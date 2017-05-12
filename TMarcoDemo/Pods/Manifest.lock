@@ -1,0 +1,43 @@
+PODS:
+  - FHCategory (0.0.8)
+  - StreamKit (1.4.5):
+    - StreamKit/Marco (= 1.4.5)
+    - StreamKit/NSObject (= 1.4.5)
+    - StreamKit/ReactiveX (= 1.4.5)
+    - StreamKit/UIGestureRecognizer (= 1.4.5)
+    - StreamKit/UIScrollView (= 1.4.5)
+    - StreamKit/UIView (= 1.4.5)
+    - StreamKit/UIViewController (= 1.4.5)
+  - StreamKit/Marco (1.4.5)
+  - StreamKit/NSObject (1.4.5):
+    - StreamKit/Marco
+  - StreamKit/ReactiveX (1.4.5):
+    - StreamKit/Marco
+    - StreamKit/NSObject
+    - StreamKit/UIGestureRecognizer
+    - StreamKit/UIScrollView
+    - StreamKit/UIView
+  - StreamKit/UIGestureRecognizer (1.4.5):
+    - StreamKit/NSObject
+  - StreamKit/UIScrollView (1.4.5):
+    - StreamKit/NSObject
+    - StreamKit/UIView
+  - StreamKit/UIView (1.4.5):
+    - StreamKit/NSObject
+  - StreamKit/UIViewController (1.4.5):
+    - StreamKit/NSObject
+  - YYModel (1.0.4)
+
+DEPENDENCIES:
+  - FHCategory
+  - StreamKit
+  - YYModel
+
+SPEC CHECKSUMS:
+  FHCategory: 5c0f8b1eeabf709ae4332ef02a93c17853fbb1e7
+  StreamKit: 885ed603af31d27efa4e23223ac5a03011938bb9
+  YYModel: 2a7fdd96aaa4b86a824e26d0c517de8928c04b30
+
+PODFILE CHECKSUM: 4e18e3b98a9138324fa61ddfe8c8a8ba8a147fbf
+
+COCOAPODS: 1.2.0

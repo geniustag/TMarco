@@ -1,0 +1,1212 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		00990D76E3BF625E9835539B97A14ED4 /* UISearchBar+StreamKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 53B1E7EC159E8FAB2BAD39499B928152 /* UISearchBar+StreamKit.m */; };
+		014A6F93EBC758F581A3FC86CD54DEE6 /* FHCategory-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6296C2F92AE4F539DD912661F92A6281 /* FHCategory-dummy.m */; };
+		0281EB546B63BB8E6519FA94FBE4B86C /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6BA9B7D5E3FCCC6CE4A79E131788AAEC /* CoreFoundation.framework */; };
+		04B0A9DBD4BC23C7F899F48C61C7B365 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C0C9D9D043E88EDC9EEA08EF4794CAB0 /* UIKit.framework */; };
+		062D289BA89716F6F0E197A17CD02990 /* UIProgressView+StreamKit.h in Headers */ = {isa = PBXBuildFile; fileRef = B25654F453AAF152BABB4BDFD6C44B08 /* UIProgressView+StreamKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0637E95C9B5982054D9B6EE882552D94 /* NSString+FHExtend.h in Headers */ = {isa = PBXBuildFile; fileRef = AC05CD58CDBF16D4C6E9F49A24644DCB /* NSString+FHExtend.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0A29F15B931C6AEBB87C354EBAF75AD7 /* UIPageViewController+StreamKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 4F00FAA69B6B452E53122D82744744E7 /* UIPageViewController+StreamKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0D7491616324F072ABB85B7407E0F0F8 /* UIImagePickerController+StreamKit.m in Sources */ = {isa = PBXBuildFile; fileRef = AC4BCE8800DB4EAA1BD4FD1576826069 /* UIImagePickerController+StreamKit.m */; };
+		1075D4E2A2FDFCBF21A7956DECCC8A59 /* UISwitch+StreamKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 49425C51EC6660CE1ED7CB296A33E475 /* UISwitch+StreamKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1659B87FA4B2878719AAD2FBF526752D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 537CB3D5CDFEC3E84F8F29AB933EC4EC /* Foundation.framework */; };
+		1717156D5B7591E835F6221F03D9666B /* UITableView+StreamKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 64234E8D1856B827A187BCE7EF9B5270 /* UITableView+StreamKit.m */; };
+		1B6D095FCECE95C4089F5B5557D8079B /* UIImageView+StreamKit.h in Headers */ = {isa = PBXBuildFile; fileRef = F8AC832BA3B7A478359ED6682A27E19F /* UIImageView+StreamKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1D5CDDCBDA96787978F00F88FFCBEFC3 /* UISwitch+StreamKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C665F246D4418B0B9CA92DAC9026673 /* UISwitch+StreamKit.m */; };
+		1DFE532DDA0ABDF16C85127659E7AEE6 /* UITextView+ReactiveX.h in Headers */ = {isa = PBXBuildFile; fileRef = 4F352D4E18FA43332F0769F1A739F113 /* UITextView+ReactiveX.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		218BC4912745D67E6DFDEE19C515423E /* StreamObserver.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FC3A9DA54A455BBC60A6021649229FB /* StreamObserver.m */; };
+		2565510EADA79FB923907B7FCD91741C /* UIPageViewController+StreamKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 2118A51AE0B18F43F781FE2E12424BD2 /* UIPageViewController+StreamKit.m */; };
+		25A2F5A8CDE9793F275414D027F620D9 /* NSNumber+FHExtend.h in Headers */ = {isa = PBXBuildFile; fileRef = 9288FDDD482D5D28D5941BD5AD7D3F50 /* NSNumber+FHExtend.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		279CA1BC3ADE734B4C469C600E2F8B3F /* UICollectionView+StreamKit.h in Headers */ = {isa = PBXBuildFile; fileRef = E39F070E27D6497943E732F2D550C4C4 /* UICollectionView+StreamKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		27D5760A48938E05E72ED193067D0E0D /* UIImage+FHExtend.m in Sources */ = {isa = PBXBuildFile; fileRef = 07B9DA1E50279EC19C9AECC13DEDC3EE /* UIImage+FHExtend.m */; };
+		2AB8CAA2048F339EDAE62580A238386E /* UITapGestureRecognizer+StreamKit.m in Sources */ = {isa = PBXBuildFile; fileRef = CB5C06878680C1ABEC282CDE2400134D /* UITapGestureRecognizer+StreamKit.m */; };
+		2DCBEB03FF3A2A983331DAD2F0F73F03 /* UIView+FHExtend.h in Headers */ = {isa = PBXBuildFile; fileRef = F320C8818821659B00A5AF9D92969D24 /* UIView+FHExtend.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		335560506DF47427F83AE3D68009457F /* UIControl+ReactiveX.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E615E9F32780CAF21ACF7D8A34DF672 /* UIControl+ReactiveX.m */; };
+		352182B68323995B0DE48792A2E701E0 /* UIView+StreamKit.m in Sources */ = {isa = PBXBuildFile; fileRef = CCE3782996957BBA9BE0A9D7A6568793 /* UIView+StreamKit.m */; };
+		3ABA0539FF07426611A0AD3AD1E8EF67 /* UISearchBar+ReactiveX.h in Headers */ = {isa = PBXBuildFile; fileRef = C17CCC5ADB00FCB2C1A0D931985BAE80 /* UISearchBar+ReactiveX.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3BF3BB4217B2BD8482F07EBF8CF1A8C6 /* NSData+FHExtend.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D687DB59682B64F54EFAFA1D16A7E4C /* NSData+FHExtend.m */; };
+		3CC6AFD9B140BAC0E04D400F3243F693 /* UIImagePickerController+StreamKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 848A8DBEA43D1B6743BC07F834BD840C /* UIImagePickerController+StreamKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3F3A7250E01F2D714A41E53D8401BE2D /* SKSignal.m in Sources */ = {isa = PBXBuildFile; fileRef = 34A31A524BF576ECD7332DB7AB68FBD2 /* SKSignal.m */; };
+		3F930A31F071C3BD879FC92D1FE29D2B /* UITextField+ReactiveX.h in Headers */ = {isa = PBXBuildFile; fileRef = CF5253AC9A6AEE70FA3EECB3EDCCE20F /* UITextField+ReactiveX.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4226156CCEEAD8D986EDB4EF393BAD37 /* UITableView+StreamKit.h in Headers */ = {isa = PBXBuildFile; fileRef = E608890A02369F63F88BBEC8BA3BAAAC /* UITableView+StreamKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		43969098C92690A6961FDC5AEC5D9B27 /* UIScrollView+ReactiveX.h in Headers */ = {isa = PBXBuildFile; fileRef = A828312B7602ED09846C74DEF2429D77 /* UIScrollView+ReactiveX.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		439F2284A086EBD8626EAFE763C2EC0F /* NSString+StreamKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 7930A1BB6FA410D1974095E7620F06A9 /* NSString+StreamKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		449717DD96EBE7D6E3DE1F180E493665 /* UIRotationGestureRecognizer+StreamKit.m in Sources */ = {isa = PBXBuildFile; fileRef = CF63EDCF6838554CC35E6A5099192478 /* UIRotationGestureRecognizer+StreamKit.m */; };
+		4945D4A0FF3D70346F3C97E9148D7E6C /* NSString+StreamKit.m in Sources */ = {isa = PBXBuildFile; fileRef = E7B74DCD0C82E271B4342FBCE3465FFD /* NSString+StreamKit.m */; };
+		4B13947F7B6DCD918ACF010E4AFF78E3 /* NSNotificationCenter+StreamKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C970ED6D27A9155DDBE6E4FCF670204 /* NSNotificationCenter+StreamKit.m */; };
+		4C0143326B45F63241A533B3A924199C /* UITextField+StreamKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 42A0293E03355E0DBBCCD2377A04C98C /* UITextField+StreamKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		549409504B0BED2851D20BF1F3BC1DCA /* UIInputView+StreamKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 81799CBC9987C6D2EE2280945A494DBD /* UIInputView+StreamKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		559934BECE0614C4F825E34E9C8D6B36 /* UIView+ReactiveX.m in Sources */ = {isa = PBXBuildFile; fileRef = A70C5095791763BA1EBFDD000089D6C0 /* UIView+ReactiveX.m */; };
+		5702C652707904A06318FFABDD60BE0E /* UISwipeGestureRecognizer+StreamKit.m in Sources */ = {isa = PBXBuildFile; fileRef = BE811D03BCA95E17669E17A013B93934 /* UISwipeGestureRecognizer+StreamKit.m */; };
+		5909B0EDC928798DDA8640CD7E28292E /* NSDictionary+FHExtend.m in Sources */ = {isa = PBXBuildFile; fileRef = DE0C5CD7F89C86AB8D10C9616021CE6B /* NSDictionary+FHExtend.m */; };
+		5AC1CA5237A6BC27E92A5C54B4E1EFFC /* UILabel+StreamKit.h in Headers */ = {isa = PBXBuildFile; fileRef = ECDD88B92BA53F2DF8522B6FA7B6D365 /* UILabel+StreamKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5BF8DD6F199ABC709D182461DC963D69 /* UIAlertAction+StreamKit.h in Headers */ = {isa = PBXBuildFile; fileRef = BFBED103003468FF9B10BD70FE36560D /* UIAlertAction+StreamKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5C27425689A89D0695A268DC3FC0234A /* UIView+StreamKit.h in Headers */ = {isa = PBXBuildFile; fileRef = B447B4F82B58E963AA2DDE8D5ED88F7E /* UIView+StreamKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		60343A8DB7E59289158DC71F0CFD0889 /* UIView+ReactiveX.h in Headers */ = {isa = PBXBuildFile; fileRef = 81BD5F74B292C3582BBF54EC15AB2B88 /* UIView+ReactiveX.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		66CB6242E5B6185C3B005ADAAAC1FDB8 /* NSData+FHExtend.h in Headers */ = {isa = PBXBuildFile; fileRef = 12481920F5DE8FA160E408F1095D49BE /* NSData+FHExtend.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6CBF04A560D4905D956267A1D1728F46 /* UIGestureRecognizer+ReactiveX.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B89B6FB3B6D508175BE1F93980EB831 /* UIGestureRecognizer+ReactiveX.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6E9215FE11FCC11CA23DD0B6A3C85814 /* UIControl+StreamKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 965F5C479B3FAA519597495B80546114 /* UIControl+StreamKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7170304CE1DB2D43738213C40B6E0A5D /* UIScrollView+StreamKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 683EDA4B414CCF952CF0F1198176B24C /* UIScrollView+StreamKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7232C2DE5FC94A6D48D821F625B59845 /* UIProgressView+StreamKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 6781889141BBA255C068CE029119AE8C /* UIProgressView+StreamKit.m */; };
+		7439D3A94244C7E50DE5A0E1D37CAE15 /* Pods-TMarcoDemo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FBCF6CAD78D0C616778C82F125307F2 /* Pods-TMarcoDemo-dummy.m */; };
+		7621134975B811A2A3C069F5BEE481D8 /* UIView+FHExtend.m in Sources */ = {isa = PBXBuildFile; fileRef = 89EEA5748FE0974676DBB974A22C7B1B /* UIView+FHExtend.m */; };
+		79940355D17FC4FA5268F7A0BE1436C2 /* UIButton+StreamKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 98329A9D102FD330769D24F83EBDD3C3 /* UIButton+StreamKit.m */; };
+		7AA38CE51BB86A8332709318C2C28FBF /* UIPinchGestureRecognizer+StreamKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 98EDA1C2DEDE2EEEC20B5B0B06AB9062 /* UIPinchGestureRecognizer+StreamKit.m */; };
+		7AAF62A5D16671D48AB12714196D4860 /* YYClassInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = 4A2B0E38295E066EFA49D51E01195C6D /* YYClassInfo.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7CBECD5BC2626E760BFF962A3F81C344 /* NSDictionary+FHExtend.h in Headers */ = {isa = PBXBuildFile; fileRef = D0615844750F0D4C027548F0DEBD82A6 /* NSDictionary+FHExtend.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7E601A34BF6A9271C7FFD5611A3CDFE7 /* SKObjectifyMarco.h in Headers */ = {isa = PBXBuildFile; fileRef = D42FBFABF922CD64B2C183298A14AE20 /* SKObjectifyMarco.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7E6A06E2B1D1DD99241ABFD60C3035C8 /* UIControl+StreamKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CD50D168B05C91D8D16FD4A57A59533 /* UIControl+StreamKit.m */; };
+		81F3AEBA6CEDE20626B4585CF2CDD175 /* UISearchBar+ReactiveX.m in Sources */ = {isa = PBXBuildFile; fileRef = C704FEF1E17B8DAD6C853322DB2CC71A /* UISearchBar+ReactiveX.m */; };
+		866E274D94163A067AC6559B32A7717E /* UIAlertAction+StreamKit.m in Sources */ = {isa = PBXBuildFile; fileRef = F7B8DFF1FD8852C82D5D6EE739BD3D9D /* UIAlertAction+StreamKit.m */; };
+		887350FDEB3BF490A55F5A1CCB70C494 /* UIGestureRecognizer+StreamKit.m in Sources */ = {isa = PBXBuildFile; fileRef = F20856169A2AD1EC39FCA3C7E23E6906 /* UIGestureRecognizer+StreamKit.m */; };
+		88A02AA9141F5E56FEF2F1C5175D2218 /* NSObject+YYModel.h in Headers */ = {isa = PBXBuildFile; fileRef = F76B73D819FC6A8C962D594CF4B58085 /* NSObject+YYModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8E2AD7C46942BF58BE6B491575AD9C4B /* NSArray+FHExtend.h in Headers */ = {isa = PBXBuildFile; fileRef = 3A46BCD8879D46F6044E2F85AF3C1027 /* NSArray+FHExtend.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8F869D0BDFF32DA82A8849070F6EE115 /* UIImageView+StreamKit.m in Sources */ = {isa = PBXBuildFile; fileRef = F7B33CD19B27483B30C8BE8010CDFE41 /* UIImageView+StreamKit.m */; };
+		8FFDD424F5CE18166F4DDD2AC5F1454F /* SKKeyPathMarco.h in Headers */ = {isa = PBXBuildFile; fileRef = 9667E6148ADC989326605F610DFDE099 /* SKKeyPathMarco.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		92DBC81B422976B87F11EBD1B820FC1F /* UITextView+ReactiveX.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B9B04CB16D63CE07790B97E53F21C2E /* UITextView+ReactiveX.m */; };
+		9318A289703DEBFCCC736B01E0829876 /* UIScrollView+StreamKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 85FA50409F1A0DEEAFAD509A5A55695D /* UIScrollView+StreamKit.m */; };
+		96CF31F709FEFCF082284E4974299A75 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 537CB3D5CDFEC3E84F8F29AB933EC4EC /* Foundation.framework */; };
+		984AB95D16BE9CFE5F3562CD985ECDE7 /* FHCategory.h in Headers */ = {isa = PBXBuildFile; fileRef = 22BC921C94D212D887ADD816E0BC04D4 /* FHCategory.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		98579070E1B371D66157ED823E97CA89 /* UILongPressGestureRecognizer+StreamKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 09ACD6B58000E02107EF4C7598FF1A0C /* UILongPressGestureRecognizer+StreamKit.m */; };
+		98A0822050F344E68C5BE18E2EC6EA63 /* SKSignal.h in Headers */ = {isa = PBXBuildFile; fileRef = BA5FDA344B19B620DFFF6B116ABA50AA /* SKSignal.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9D5E55A543559AB69A17E0FCE88B0A4F /* NSObject+YYModel.m in Sources */ = {isa = PBXBuildFile; fileRef = C328531B7271F4FBF77151B8327365AF /* NSObject+YYModel.m */; };
+		9E0E10D05489080AA437B9FB5340A97C /* UIImage+FHExtend.h in Headers */ = {isa = PBXBuildFile; fileRef = 0CF096FFD79F3258829DB5E6CA7D36ED /* UIImage+FHExtend.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A009E7AF8452E2C5EB9A5DBBB4FA703F /* StreamKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 2100D8BFFCF3B50A77C8B8440855D31E /* StreamKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A10A05A22B6E5D36A15CA7211709CB85 /* UITextView+StreamKit.h in Headers */ = {isa = PBXBuildFile; fileRef = B1A2C26F25FF7FD1EBF5D94FEE824A28 /* UITextView+StreamKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A2D76661A77B81BA47C55FA7C2BD6DB5 /* UITextField+StreamKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 63AFD3243243B7A4AB4E28683FB3D995 /* UITextField+StreamKit.m */; };
+		A661F2F645E68EA2F18A43C5C1212198 /* UIPanGestureRecognizer+StreamKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C53F28875EDBC1BC280C3E954725B41 /* UIPanGestureRecognizer+StreamKit.m */; };
+		A702C950BA835DF2295E7FDFC687445B /* NSObject+StreamKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B9CFC6AB7FB9D9910DF220340C39633 /* NSObject+StreamKit.m */; };
+		AE1D9EF73922ACA1F97942F81A25EF23 /* StreamObserver.h in Headers */ = {isa = PBXBuildFile; fileRef = FFA55ADAD17B16F5F71312395120BBDC /* StreamObserver.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B032310F4DB0B44F9226BDB3EB94BF71 /* UIGestureRecognizer+ReactiveX.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A523731F1C7812576A4E8341C4D63D5 /* UIGestureRecognizer+ReactiveX.m */; };
+		B04D3EE4008911CA94B6E4670B2F58D1 /* YYClassInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 55FE74D96A08E2FB885995BFD45BBD9E /* YYClassInfo.m */; };
+		B152591AD28280E078DE577E03BFA253 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 537CB3D5CDFEC3E84F8F29AB933EC4EC /* Foundation.framework */; };
+		B18B3474786D698D8E1908B8C65C8A9C /* UIScrollView+ReactiveX.m in Sources */ = {isa = PBXBuildFile; fileRef = B5F96D0EFED745486FE8A61F94CADF46 /* UIScrollView+ReactiveX.m */; };
+		B2D3A63FE8E25F8DAFA1B2C510E3361F /* SKSubscriber.m in Sources */ = {isa = PBXBuildFile; fileRef = 22126906127631634280B5894D430A59 /* SKSubscriber.m */; };
+		B30501365C097557E28A1AD69FCDA758 /* NSNotificationCenter+StreamKit.h in Headers */ = {isa = PBXBuildFile; fileRef = D1AB55D3D7B6483A4DE3FBC4D3FB7D51 /* NSNotificationCenter+StreamKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B63800C3FB5F9424156136A95A1280FA /* UILabel+StreamKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CADF7BF925275738E36203C56FF3BEF /* UILabel+StreamKit.m */; };
+		B8292952EE90A0D0D3688F1FFF62647C /* UISearchBar+StreamKit.h in Headers */ = {isa = PBXBuildFile; fileRef = CBA4406642A4E96CA30960F1689D37BD /* UISearchBar+StreamKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BC57AA2A8B1C04750AA25EF70F6BA0E3 /* NSObject+ReactiveX.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A790B6933E982B77D739BA1A6567FCB /* NSObject+ReactiveX.m */; };
+		BE7C39D15BF7C4FE34C333EA1021B1EB /* NSArray+FHExtend.m in Sources */ = {isa = PBXBuildFile; fileRef = 29ECB65618A9CF6CF9DE363821E3F90E /* NSArray+FHExtend.m */; };
+		C04897CA334B462EF83B7326CC5D5A9C /* YYModel-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CCA84E5DE05059C212747FCAEAF62CC5 /* YYModel-dummy.m */; };
+		C1CADD471F82A59A3256DC8739237C93 /* UITapGestureRecognizer+StreamKit.h in Headers */ = {isa = PBXBuildFile; fileRef = E1C38672250E15D8454BBBA5A91513E9 /* UITapGestureRecognizer+StreamKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C79778EE86AE4DF1E87A3C12ACD1AE5D /* YYModel.h in Headers */ = {isa = PBXBuildFile; fileRef = E85309733CF16280868C6B152A7561D3 /* YYModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CCED5327B5B5E0AAB03AEF097C85D631 /* UITextView+StreamKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DBB048D59A44F87726D524125F2261B /* UITextView+StreamKit.m */; };
+		CE3E944D55617E63E9F15977F40A91D2 /* NSObject+ReactiveX.h in Headers */ = {isa = PBXBuildFile; fileRef = AA373B0751C749CA6F0C80E3E48EDBB5 /* NSObject+ReactiveX.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D50ED6E1866D9D2926EC43959421E233 /* SKSubscriber.h in Headers */ = {isa = PBXBuildFile; fileRef = AC66089DC1743C1F4DB9103BEC6A9EFC /* SKSubscriber.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D51FBF1B9FB3C69534104243ED7C838C /* NSNumber+FHExtend.m in Sources */ = {isa = PBXBuildFile; fileRef = 02C2FD8066D7854037152995D3CAD72A /* NSNumber+FHExtend.m */; };
+		D54086A330E1824151137E900940CC17 /* NSObject+StreamKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 0659CE6CA43E14D550A4FD3369EAEFF4 /* NSObject+StreamKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D6BA52139CEDFD4D63C314A871278C0A /* UIInputView+StreamKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DCB1886526F867783FE172258E6E214 /* UIInputView+StreamKit.m */; };
+		D6D894E1280C8DBB5DDAF84DB140F399 /* UIRotationGestureRecognizer+StreamKit.h in Headers */ = {isa = PBXBuildFile; fileRef = F015493B9B9129CCC226AFF1D61A306B /* UIRotationGestureRecognizer+StreamKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D7F5D731C6AB9B3DC83CC98131B28A8D /* UIPanGestureRecognizer+StreamKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 4EA92F6E24A58758682432B89889ED57 /* UIPanGestureRecognizer+StreamKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D8874F4D69A4C5E13A289C3C511F18C6 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C0C9D9D043E88EDC9EEA08EF4794CAB0 /* UIKit.framework */; };
+		D99C1A62894A49E37145C6E590CC900E /* UISwipeGestureRecognizer+StreamKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 131DF7EF1F034E18B9F215AC44E2A709 /* UISwipeGestureRecognizer+StreamKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DBC13C0FE8F6C348CEFBB39B132D2494 /* NSString+FHExtend.m in Sources */ = {isa = PBXBuildFile; fileRef = DE383D458EBD19B87FDEB693F8EA31E9 /* NSString+FHExtend.m */; };
+		DC8BC293547679DA533762110D238C42 /* UIButton+StreamKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 1717D8F9C3BF128A3FC7509596998755 /* UIButton+StreamKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DD48F6145F691E4219FF425787DFDD54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 537CB3D5CDFEC3E84F8F29AB933EC4EC /* Foundation.framework */; };
+		E0D4AA8A460C1B76380E425B209769E0 /* SKMetaMarco.h in Headers */ = {isa = PBXBuildFile; fileRef = 6F410DA147020F628C1E2ACB6D07C76B /* SKMetaMarco.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E6B1BF8B6E873668001080453C0608ED /* UIPinchGestureRecognizer+StreamKit.h in Headers */ = {isa = PBXBuildFile; fileRef = A40FC966241846B3A4193B31B5DAD253 /* UIPinchGestureRecognizer+StreamKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E80C6083ACEE68C9C846ABD896A0CC46 /* UITextField+ReactiveX.m in Sources */ = {isa = PBXBuildFile; fileRef = 9731758C9960AC284440BD8F62C77AE0 /* UITextField+ReactiveX.m */; };
+		E9142C3868DD57957B16B9DA3B08DE24 /* UICollectionView+StreamKit.m in Sources */ = {isa = PBXBuildFile; fileRef = F80FA61F3233FDFAD0136FFBF1EAD090 /* UICollectionView+StreamKit.m */; };
+		EA61DD00B411194BF71C631E689E3EF1 /* UIGestureRecognizer+StreamKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 9A0FE87606E49286ACA176FE49803FE2 /* UIGestureRecognizer+StreamKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EFF9A44538C729F9B512A3EF558AEB08 /* UILongPressGestureRecognizer+StreamKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 7D4B56B44F9F01DD677AA6C43BEF9C16 /* UILongPressGestureRecognizer+StreamKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F59623E59299399136CD12A4CEB3FF92 /* StreamKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DA609FBF4F261E6F5AE0E8162C7CEDC4 /* StreamKit-dummy.m */; };
+		FF70F9BE82AFB4D11DCFDD19C74B22F2 /* UIControl+ReactiveX.h in Headers */ = {isa = PBXBuildFile; fileRef = 68F3D03A0E0381FC52EDE6EAA1F3F9B9 /* UIControl+ReactiveX.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2CC260D3E6F30D11AF5410BEAB056CCF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0D4FC58030AAE2C113A37C7C76B8469F;
+			remoteInfo = YYModel;
+		};
+		8C278A7AC44485CBB2A3626959F7B010 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0C7AB5B60BF320C40EC29C015BC5BECC;
+			remoteInfo = FHCategory;
+		};
+		D02744FF33FD6648BF7FF0FB9E447D5A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 50C4BF524AC0B15DECB3EAE157267218;
+			remoteInfo = StreamKit;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0276D95AA47B086547F9F3D19DE7A9B9 /* StreamKit.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = StreamKit.xcconfig; sourceTree = "<group>"; };
+		02C2FD8066D7854037152995D3CAD72A /* NSNumber+FHExtend.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSNumber+FHExtend.m"; path = "FHCategory/NSNumber+FHExtend.m"; sourceTree = "<group>"; };
+		0659CE6CA43E14D550A4FD3369EAEFF4 /* NSObject+StreamKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSObject+StreamKit.h"; path = "StreamKit/NSObject/NSObject+StreamKit.h"; sourceTree = "<group>"; };
+		07B9DA1E50279EC19C9AECC13DEDC3EE /* UIImage+FHExtend.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+FHExtend.m"; path = "FHCategory/UIImage+FHExtend.m"; sourceTree = "<group>"; };
+		09ACD6B58000E02107EF4C7598FF1A0C /* UILongPressGestureRecognizer+StreamKit.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UILongPressGestureRecognizer+StreamKit.m"; path = "StreamKit/UIGestureRecognizer/UILongPressGestureRecognizer+StreamKit.m"; sourceTree = "<group>"; };
+		0CD50D168B05C91D8D16FD4A57A59533 /* UIControl+StreamKit.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIControl+StreamKit.m"; path = "StreamKit/UIView/UIControl+StreamKit.m"; sourceTree = "<group>"; };
+		0CF096FFD79F3258829DB5E6CA7D36ED /* UIImage+FHExtend.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+FHExtend.h"; path = "FHCategory/UIImage+FHExtend.h"; sourceTree = "<group>"; };
+		12481920F5DE8FA160E408F1095D49BE /* NSData+FHExtend.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSData+FHExtend.h"; path = "FHCategory/NSData+FHExtend.h"; sourceTree = "<group>"; };
+		131DF7EF1F034E18B9F215AC44E2A709 /* UISwipeGestureRecognizer+StreamKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UISwipeGestureRecognizer+StreamKit.h"; path = "StreamKit/UIGestureRecognizer/UISwipeGestureRecognizer+StreamKit.h"; sourceTree = "<group>"; };
+		1717D8F9C3BF128A3FC7509596998755 /* UIButton+StreamKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIButton+StreamKit.h"; path = "StreamKit/UIView/UIButton+StreamKit.h"; sourceTree = "<group>"; };
+		1A523731F1C7812576A4E8341C4D63D5 /* UIGestureRecognizer+ReactiveX.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIGestureRecognizer+ReactiveX.m"; path = "StreamKit/Reactive/UIGestureRecognizer+ReactiveX.m"; sourceTree = "<group>"; };
+		1C665F246D4418B0B9CA92DAC9026673 /* UISwitch+StreamKit.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UISwitch+StreamKit.m"; path = "StreamKit/UIView/UISwitch+StreamKit.m"; sourceTree = "<group>"; };
+		1E531DC3D4ABDC0134AF8CDC5BFF9D1B /* libPods-TMarcoDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-TMarcoDemo.a"; path = "libPods-TMarcoDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2100D8BFFCF3B50A77C8B8440855D31E /* StreamKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = StreamKit.h; path = StreamKit/StreamKit.h; sourceTree = "<group>"; };
+		2118A51AE0B18F43F781FE2E12424BD2 /* UIPageViewController+StreamKit.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIPageViewController+StreamKit.m"; path = "StreamKit/UIViewController/UIPageViewController+StreamKit.m"; sourceTree = "<group>"; };
+		22126906127631634280B5894D430A59 /* SKSubscriber.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SKSubscriber.m; path = StreamKit/Reactive/SKSubscriber.m; sourceTree = "<group>"; };
+		22BC921C94D212D887ADD816E0BC04D4 /* FHCategory.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FHCategory.h; path = FHCategory/FHCategory.h; sourceTree = "<group>"; };
+		29ECB65618A9CF6CF9DE363821E3F90E /* NSArray+FHExtend.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSArray+FHExtend.m"; path = "FHCategory/NSArray+FHExtend.m"; sourceTree = "<group>"; };
+		2B89B6FB3B6D508175BE1F93980EB831 /* UIGestureRecognizer+ReactiveX.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIGestureRecognizer+ReactiveX.h"; path = "StreamKit/Reactive/UIGestureRecognizer+ReactiveX.h"; sourceTree = "<group>"; };
+		344803E5E07F54DABB9CC4E336434A61 /* YYModel-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "YYModel-prefix.pch"; sourceTree = "<group>"; };
+		34A31A524BF576ECD7332DB7AB68FBD2 /* SKSignal.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SKSignal.m; path = StreamKit/Reactive/SKSignal.m; sourceTree = "<group>"; };
+		3A46BCD8879D46F6044E2F85AF3C1027 /* NSArray+FHExtend.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSArray+FHExtend.h"; path = "FHCategory/NSArray+FHExtend.h"; sourceTree = "<group>"; };
+		3B9CFC6AB7FB9D9910DF220340C39633 /* NSObject+StreamKit.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSObject+StreamKit.m"; path = "StreamKit/NSObject/NSObject+StreamKit.m"; sourceTree = "<group>"; };
+		42A0293E03355E0DBBCCD2377A04C98C /* UITextField+StreamKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UITextField+StreamKit.h"; path = "StreamKit/UIView/UITextField+StreamKit.h"; sourceTree = "<group>"; };
+		49425C51EC6660CE1ED7CB296A33E475 /* UISwitch+StreamKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UISwitch+StreamKit.h"; path = "StreamKit/UIView/UISwitch+StreamKit.h"; sourceTree = "<group>"; };
+		4A2B0E38295E066EFA49D51E01195C6D /* YYClassInfo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YYClassInfo.h; path = YYModel/YYClassInfo.h; sourceTree = "<group>"; };
+		4C53F28875EDBC1BC280C3E954725B41 /* UIPanGestureRecognizer+StreamKit.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIPanGestureRecognizer+StreamKit.m"; path = "StreamKit/UIGestureRecognizer/UIPanGestureRecognizer+StreamKit.m"; sourceTree = "<group>"; };
+		4E615E9F32780CAF21ACF7D8A34DF672 /* UIControl+ReactiveX.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIControl+ReactiveX.m"; path = "StreamKit/Reactive/UIControl+ReactiveX.m"; sourceTree = "<group>"; };
+		4EA92F6E24A58758682432B89889ED57 /* UIPanGestureRecognizer+StreamKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIPanGestureRecognizer+StreamKit.h"; path = "StreamKit/UIGestureRecognizer/UIPanGestureRecognizer+StreamKit.h"; sourceTree = "<group>"; };
+		4F00FAA69B6B452E53122D82744744E7 /* UIPageViewController+StreamKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIPageViewController+StreamKit.h"; path = "StreamKit/UIViewController/UIPageViewController+StreamKit.h"; sourceTree = "<group>"; };
+		4F352D4E18FA43332F0769F1A739F113 /* UITextView+ReactiveX.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UITextView+ReactiveX.h"; path = "StreamKit/Reactive/UITextView+ReactiveX.h"; sourceTree = "<group>"; };
+		51FE95149BB504ADD493B310E7D684AB /* Pods-TMarcoDemo-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TMarcoDemo-resources.sh"; sourceTree = "<group>"; };
+		537CB3D5CDFEC3E84F8F29AB933EC4EC /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		53B1E7EC159E8FAB2BAD39499B928152 /* UISearchBar+StreamKit.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UISearchBar+StreamKit.m"; path = "StreamKit/UIView/UISearchBar+StreamKit.m"; sourceTree = "<group>"; };
+		55FE74D96A08E2FB885995BFD45BBD9E /* YYClassInfo.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YYClassInfo.m; path = YYModel/YYClassInfo.m; sourceTree = "<group>"; };
+		5C970ED6D27A9155DDBE6E4FCF670204 /* NSNotificationCenter+StreamKit.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSNotificationCenter+StreamKit.m"; path = "StreamKit/NSObject/NSNotificationCenter+StreamKit.m"; sourceTree = "<group>"; };
+		5FC3A9DA54A455BBC60A6021649229FB /* StreamObserver.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = StreamObserver.m; path = StreamKit/Reactive/StreamObserver.m; sourceTree = "<group>"; };
+		6296C2F92AE4F539DD912661F92A6281 /* FHCategory-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FHCategory-dummy.m"; sourceTree = "<group>"; };
+		63AFD3243243B7A4AB4E28683FB3D995 /* UITextField+StreamKit.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UITextField+StreamKit.m"; path = "StreamKit/UIView/UITextField+StreamKit.m"; sourceTree = "<group>"; };
+		64234E8D1856B827A187BCE7EF9B5270 /* UITableView+StreamKit.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UITableView+StreamKit.m"; path = "StreamKit/UIScrollView/UITableView+StreamKit.m"; sourceTree = "<group>"; };
+		6781889141BBA255C068CE029119AE8C /* UIProgressView+StreamKit.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIProgressView+StreamKit.m"; path = "StreamKit/UIView/UIProgressView+StreamKit.m"; sourceTree = "<group>"; };
+		683EDA4B414CCF952CF0F1198176B24C /* UIScrollView+StreamKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIScrollView+StreamKit.h"; path = "StreamKit/UIScrollView/UIScrollView+StreamKit.h"; sourceTree = "<group>"; };
+		68F3D03A0E0381FC52EDE6EAA1F3F9B9 /* UIControl+ReactiveX.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIControl+ReactiveX.h"; path = "StreamKit/Reactive/UIControl+ReactiveX.h"; sourceTree = "<group>"; };
+		6BA9B7D5E3FCCC6CE4A79E131788AAEC /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/CoreFoundation.framework; sourceTree = DEVELOPER_DIR; };
+		6D687DB59682B64F54EFAFA1D16A7E4C /* NSData+FHExtend.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSData+FHExtend.m"; path = "FHCategory/NSData+FHExtend.m"; sourceTree = "<group>"; };
+		6D8CB462DBF72D820D22DB7CB532248A /* Pods-TMarcoDemo-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TMarcoDemo-acknowledgements.plist"; sourceTree = "<group>"; };
+		6F410DA147020F628C1E2ACB6D07C76B /* SKMetaMarco.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SKMetaMarco.h; path = StreamKit/Marco/SKMetaMarco.h; sourceTree = "<group>"; };
+		6F6A43423565742D4988BF5F530248C3 /* FHCategory-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FHCategory-prefix.pch"; sourceTree = "<group>"; };
+		6FBCF6CAD78D0C616778C82F125307F2 /* Pods-TMarcoDemo-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TMarcoDemo-dummy.m"; sourceTree = "<group>"; };
+		71A56FF52D38267E91786E6D51D9E669 /* Pods-TMarcoDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TMarcoDemo.release.xcconfig"; sourceTree = "<group>"; };
+		7930A1BB6FA410D1974095E7620F06A9 /* NSString+StreamKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSString+StreamKit.h"; path = "StreamKit/NSObject/NSString+StreamKit.h"; sourceTree = "<group>"; };
+		7BFC09395A838449A7DCA237818B5635 /* libFHCategory.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libFHCategory.a; path = libFHCategory.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		7D4B56B44F9F01DD677AA6C43BEF9C16 /* UILongPressGestureRecognizer+StreamKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UILongPressGestureRecognizer+StreamKit.h"; path = "StreamKit/UIGestureRecognizer/UILongPressGestureRecognizer+StreamKit.h"; sourceTree = "<group>"; };
+		7DCB1886526F867783FE172258E6E214 /* UIInputView+StreamKit.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIInputView+StreamKit.m"; path = "StreamKit/UIView/UIInputView+StreamKit.m"; sourceTree = "<group>"; };
+		81799CBC9987C6D2EE2280945A494DBD /* UIInputView+StreamKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIInputView+StreamKit.h"; path = "StreamKit/UIView/UIInputView+StreamKit.h"; sourceTree = "<group>"; };
+		81BD5F74B292C3582BBF54EC15AB2B88 /* UIView+ReactiveX.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+ReactiveX.h"; path = "StreamKit/Reactive/UIView+ReactiveX.h"; sourceTree = "<group>"; };
+		848A8DBEA43D1B6743BC07F834BD840C /* UIImagePickerController+StreamKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImagePickerController+StreamKit.h"; path = "StreamKit/UIViewController/UIImagePickerController+StreamKit.h"; sourceTree = "<group>"; };
+		85FA50409F1A0DEEAFAD509A5A55695D /* UIScrollView+StreamKit.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIScrollView+StreamKit.m"; path = "StreamKit/UIScrollView/UIScrollView+StreamKit.m"; sourceTree = "<group>"; };
+		89EEA5748FE0974676DBB974A22C7B1B /* UIView+FHExtend.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+FHExtend.m"; path = "FHCategory/UIView+FHExtend.m"; sourceTree = "<group>"; };
+		8CADF7BF925275738E36203C56FF3BEF /* UILabel+StreamKit.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UILabel+StreamKit.m"; path = "StreamKit/UIView/UILabel+StreamKit.m"; sourceTree = "<group>"; };
+		9288FDDD482D5D28D5941BD5AD7D3F50 /* NSNumber+FHExtend.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSNumber+FHExtend.h"; path = "FHCategory/NSNumber+FHExtend.h"; sourceTree = "<group>"; };
+		93443BA30C9318C8AC485FA08362B35E /* Pods-TMarcoDemo-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TMarcoDemo-frameworks.sh"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		95907513629F698AE532EF5691F3C11E /* libYYModel.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libYYModel.a; path = libYYModel.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		965F5C479B3FAA519597495B80546114 /* UIControl+StreamKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIControl+StreamKit.h"; path = "StreamKit/UIView/UIControl+StreamKit.h"; sourceTree = "<group>"; };
+		9667E6148ADC989326605F610DFDE099 /* SKKeyPathMarco.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SKKeyPathMarco.h; path = StreamKit/Marco/SKKeyPathMarco.h; sourceTree = "<group>"; };
+		9731758C9960AC284440BD8F62C77AE0 /* UITextField+ReactiveX.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UITextField+ReactiveX.m"; path = "StreamKit/Reactive/UITextField+ReactiveX.m"; sourceTree = "<group>"; };
+		98329A9D102FD330769D24F83EBDD3C3 /* UIButton+StreamKit.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIButton+StreamKit.m"; path = "StreamKit/UIView/UIButton+StreamKit.m"; sourceTree = "<group>"; };
+		98EDA1C2DEDE2EEEC20B5B0B06AB9062 /* UIPinchGestureRecognizer+StreamKit.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIPinchGestureRecognizer+StreamKit.m"; path = "StreamKit/UIGestureRecognizer/UIPinchGestureRecognizer+StreamKit.m"; sourceTree = "<group>"; };
+		9A0FE87606E49286ACA176FE49803FE2 /* UIGestureRecognizer+StreamKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIGestureRecognizer+StreamKit.h"; path = "StreamKit/UIGestureRecognizer/UIGestureRecognizer+StreamKit.h"; sourceTree = "<group>"; };
+		9A790B6933E982B77D739BA1A6567FCB /* NSObject+ReactiveX.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSObject+ReactiveX.m"; path = "StreamKit/Reactive/NSObject+ReactiveX.m"; sourceTree = "<group>"; };
+		9B9B04CB16D63CE07790B97E53F21C2E /* UITextView+ReactiveX.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UITextView+ReactiveX.m"; path = "StreamKit/Reactive/UITextView+ReactiveX.m"; sourceTree = "<group>"; };
+		9DBB048D59A44F87726D524125F2261B /* UITextView+StreamKit.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UITextView+StreamKit.m"; path = "StreamKit/UIScrollView/UITextView+StreamKit.m"; sourceTree = "<group>"; };
+		A40FC966241846B3A4193B31B5DAD253 /* UIPinchGestureRecognizer+StreamKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIPinchGestureRecognizer+StreamKit.h"; path = "StreamKit/UIGestureRecognizer/UIPinchGestureRecognizer+StreamKit.h"; sourceTree = "<group>"; };
+		A70C5095791763BA1EBFDD000089D6C0 /* UIView+ReactiveX.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+ReactiveX.m"; path = "StreamKit/Reactive/UIView+ReactiveX.m"; sourceTree = "<group>"; };
+		A723F1557B37D66B1AB6B3473DF5E55C /* FHCategory.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FHCategory.xcconfig; sourceTree = "<group>"; };
+		A828312B7602ED09846C74DEF2429D77 /* UIScrollView+ReactiveX.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIScrollView+ReactiveX.h"; path = "StreamKit/Reactive/UIScrollView+ReactiveX.h"; sourceTree = "<group>"; };
+		AA373B0751C749CA6F0C80E3E48EDBB5 /* NSObject+ReactiveX.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSObject+ReactiveX.h"; path = "StreamKit/Reactive/NSObject+ReactiveX.h"; sourceTree = "<group>"; };
+		AC05CD58CDBF16D4C6E9F49A24644DCB /* NSString+FHExtend.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSString+FHExtend.h"; path = "FHCategory/NSString+FHExtend.h"; sourceTree = "<group>"; };
+		AC4BCE8800DB4EAA1BD4FD1576826069 /* UIImagePickerController+StreamKit.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImagePickerController+StreamKit.m"; path = "StreamKit/UIViewController/UIImagePickerController+StreamKit.m"; sourceTree = "<group>"; };
+		AC66089DC1743C1F4DB9103BEC6A9EFC /* SKSubscriber.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SKSubscriber.h; path = StreamKit/Reactive/SKSubscriber.h; sourceTree = "<group>"; };
+		B052491BB22480754F46092AB54D8EEE /* libStreamKit.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libStreamKit.a; path = libStreamKit.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		B1A2C26F25FF7FD1EBF5D94FEE824A28 /* UITextView+StreamKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UITextView+StreamKit.h"; path = "StreamKit/UIScrollView/UITextView+StreamKit.h"; sourceTree = "<group>"; };
+		B25654F453AAF152BABB4BDFD6C44B08 /* UIProgressView+StreamKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIProgressView+StreamKit.h"; path = "StreamKit/UIView/UIProgressView+StreamKit.h"; sourceTree = "<group>"; };
+		B447B4F82B58E963AA2DDE8D5ED88F7E /* UIView+StreamKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+StreamKit.h"; path = "StreamKit/UIView/UIView+StreamKit.h"; sourceTree = "<group>"; };
+		B5F96D0EFED745486FE8A61F94CADF46 /* UIScrollView+ReactiveX.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIScrollView+ReactiveX.m"; path = "StreamKit/Reactive/UIScrollView+ReactiveX.m"; sourceTree = "<group>"; };
+		BA5FDA344B19B620DFFF6B116ABA50AA /* SKSignal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SKSignal.h; path = StreamKit/Reactive/SKSignal.h; sourceTree = "<group>"; };
+		BE811D03BCA95E17669E17A013B93934 /* UISwipeGestureRecognizer+StreamKit.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UISwipeGestureRecognizer+StreamKit.m"; path = "StreamKit/UIGestureRecognizer/UISwipeGestureRecognizer+StreamKit.m"; sourceTree = "<group>"; };
+		BFBED103003468FF9B10BD70FE36560D /* UIAlertAction+StreamKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIAlertAction+StreamKit.h"; path = "StreamKit/NSObject/UIAlertAction+StreamKit.h"; sourceTree = "<group>"; };
+		C0C9D9D043E88EDC9EEA08EF4794CAB0 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		C17CCC5ADB00FCB2C1A0D931985BAE80 /* UISearchBar+ReactiveX.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UISearchBar+ReactiveX.h"; path = "StreamKit/Reactive/UISearchBar+ReactiveX.h"; sourceTree = "<group>"; };
+		C1FEEF522DBA459C32A3E8E2A3A7553C /* StreamKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "StreamKit-prefix.pch"; sourceTree = "<group>"; };
+		C328531B7271F4FBF77151B8327365AF /* NSObject+YYModel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSObject+YYModel.m"; path = "YYModel/NSObject+YYModel.m"; sourceTree = "<group>"; };
+		C704FEF1E17B8DAD6C853322DB2CC71A /* UISearchBar+ReactiveX.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UISearchBar+ReactiveX.m"; path = "StreamKit/Reactive/UISearchBar+ReactiveX.m"; sourceTree = "<group>"; };
+		CB5C06878680C1ABEC282CDE2400134D /* UITapGestureRecognizer+StreamKit.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UITapGestureRecognizer+StreamKit.m"; path = "StreamKit/UIGestureRecognizer/UITapGestureRecognizer+StreamKit.m"; sourceTree = "<group>"; };
+		CBA4406642A4E96CA30960F1689D37BD /* UISearchBar+StreamKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UISearchBar+StreamKit.h"; path = "StreamKit/UIView/UISearchBar+StreamKit.h"; sourceTree = "<group>"; };
+		CCA84E5DE05059C212747FCAEAF62CC5 /* YYModel-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "YYModel-dummy.m"; sourceTree = "<group>"; };
+		CCE3782996957BBA9BE0A9D7A6568793 /* UIView+StreamKit.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+StreamKit.m"; path = "StreamKit/UIView/UIView+StreamKit.m"; sourceTree = "<group>"; };
+		CF5253AC9A6AEE70FA3EECB3EDCCE20F /* UITextField+ReactiveX.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UITextField+ReactiveX.h"; path = "StreamKit/Reactive/UITextField+ReactiveX.h"; sourceTree = "<group>"; };
+		CF63EDCF6838554CC35E6A5099192478 /* UIRotationGestureRecognizer+StreamKit.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIRotationGestureRecognizer+StreamKit.m"; path = "StreamKit/UIGestureRecognizer/UIRotationGestureRecognizer+StreamKit.m"; sourceTree = "<group>"; };
+		D0615844750F0D4C027548F0DEBD82A6 /* NSDictionary+FHExtend.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSDictionary+FHExtend.h"; path = "FHCategory/NSDictionary+FHExtend.h"; sourceTree = "<group>"; };
+		D1AB55D3D7B6483A4DE3FBC4D3FB7D51 /* NSNotificationCenter+StreamKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSNotificationCenter+StreamKit.h"; path = "StreamKit/NSObject/NSNotificationCenter+StreamKit.h"; sourceTree = "<group>"; };
+		D42FBFABF922CD64B2C183298A14AE20 /* SKObjectifyMarco.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SKObjectifyMarco.h; path = StreamKit/Marco/SKObjectifyMarco.h; sourceTree = "<group>"; };
+		DA609FBF4F261E6F5AE0E8162C7CEDC4 /* StreamKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "StreamKit-dummy.m"; sourceTree = "<group>"; };
+		DE0C5CD7F89C86AB8D10C9616021CE6B /* NSDictionary+FHExtend.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSDictionary+FHExtend.m"; path = "FHCategory/NSDictionary+FHExtend.m"; sourceTree = "<group>"; };
+		DE383D458EBD19B87FDEB693F8EA31E9 /* NSString+FHExtend.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSString+FHExtend.m"; path = "FHCategory/NSString+FHExtend.m"; sourceTree = "<group>"; };
+		DFB1F2AA2D1C863AC3FFAA814ECDC166 /* Pods-TMarcoDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TMarcoDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		E1C38672250E15D8454BBBA5A91513E9 /* UITapGestureRecognizer+StreamKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UITapGestureRecognizer+StreamKit.h"; path = "StreamKit/UIGestureRecognizer/UITapGestureRecognizer+StreamKit.h"; sourceTree = "<group>"; };
+		E39F070E27D6497943E732F2D550C4C4 /* UICollectionView+StreamKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UICollectionView+StreamKit.h"; path = "StreamKit/UIScrollView/UICollectionView+StreamKit.h"; sourceTree = "<group>"; };
+		E608890A02369F63F88BBEC8BA3BAAAC /* UITableView+StreamKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UITableView+StreamKit.h"; path = "StreamKit/UIScrollView/UITableView+StreamKit.h"; sourceTree = "<group>"; };
+		E7B74DCD0C82E271B4342FBCE3465FFD /* NSString+StreamKit.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSString+StreamKit.m"; path = "StreamKit/NSObject/NSString+StreamKit.m"; sourceTree = "<group>"; };
+		E85309733CF16280868C6B152A7561D3 /* YYModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YYModel.h; path = YYModel/YYModel.h; sourceTree = "<group>"; };
+		ECDD88B92BA53F2DF8522B6FA7B6D365 /* UILabel+StreamKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UILabel+StreamKit.h"; path = "StreamKit/UIView/UILabel+StreamKit.h"; sourceTree = "<group>"; };
+		F015493B9B9129CCC226AFF1D61A306B /* UIRotationGestureRecognizer+StreamKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIRotationGestureRecognizer+StreamKit.h"; path = "StreamKit/UIGestureRecognizer/UIRotationGestureRecognizer+StreamKit.h"; sourceTree = "<group>"; };
+		F04A83C7995291DACFF133800748059C /* YYModel.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = YYModel.xcconfig; sourceTree = "<group>"; };
+		F07668874B89E2B07D33D2A01AF2EEB5 /* Pods-TMarcoDemo-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TMarcoDemo-acknowledgements.markdown"; sourceTree = "<group>"; };
+		F20856169A2AD1EC39FCA3C7E23E6906 /* UIGestureRecognizer+StreamKit.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIGestureRecognizer+StreamKit.m"; path = "StreamKit/UIGestureRecognizer/UIGestureRecognizer+StreamKit.m"; sourceTree = "<group>"; };
+		F320C8818821659B00A5AF9D92969D24 /* UIView+FHExtend.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+FHExtend.h"; path = "FHCategory/UIView+FHExtend.h"; sourceTree = "<group>"; };
+		F76B73D819FC6A8C962D594CF4B58085 /* NSObject+YYModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSObject+YYModel.h"; path = "YYModel/NSObject+YYModel.h"; sourceTree = "<group>"; };
+		F7B33CD19B27483B30C8BE8010CDFE41 /* UIImageView+StreamKit.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImageView+StreamKit.m"; path = "StreamKit/UIView/UIImageView+StreamKit.m"; sourceTree = "<group>"; };
+		F7B8DFF1FD8852C82D5D6EE739BD3D9D /* UIAlertAction+StreamKit.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIAlertAction+StreamKit.m"; path = "StreamKit/NSObject/UIAlertAction+StreamKit.m"; sourceTree = "<group>"; };
+		F80FA61F3233FDFAD0136FFBF1EAD090 /* UICollectionView+StreamKit.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UICollectionView+StreamKit.m"; path = "StreamKit/UIScrollView/UICollectionView+StreamKit.m"; sourceTree = "<group>"; };
+		F8AC832BA3B7A478359ED6682A27E19F /* UIImageView+StreamKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImageView+StreamKit.h"; path = "StreamKit/UIView/UIImageView+StreamKit.h"; sourceTree = "<group>"; };
+		FFA55ADAD17B16F5F71312395120BBDC /* StreamObserver.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = StreamObserver.h; path = StreamKit/Reactive/StreamObserver.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1BD2BCED47A24A74563DA57B0E3C7D84 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				96CF31F709FEFCF082284E4974299A75 /* Foundation.framework in Frameworks */,
+				04B0A9DBD4BC23C7F899F48C61C7B365 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4AA73F5FAA2477E03D07297A208F118F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1659B87FA4B2878719AAD2FBF526752D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		71231A3B6B0156ED84330323A765AF94 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0281EB546B63BB8E6519FA94FBE4B86C /* CoreFoundation.framework in Frameworks */,
+				DD48F6145F691E4219FF425787DFDD54 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8AB7084B318CC4BABAE314428100F048 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B152591AD28280E078DE577E03BFA253 /* Foundation.framework in Frameworks */,
+				D8874F4D69A4C5E13A289C3C511F18C6 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0EFE6ABE6E82966A81B243411DD40939 /* StreamKit */ = {
+			isa = PBXGroup;
+			children = (
+				2100D8BFFCF3B50A77C8B8440855D31E /* StreamKit.h */,
+				E7744039AF8C824F53A416ABDD672AB4 /* Marco */,
+				9687437FF5B29BD3BB85FE3F24F7AA8F /* NSObject */,
+				94DDBE8AD1FF71AE5FEE1AF168568D33 /* ReactiveX */,
+				E882F0FFC782C8C1FE5E80012A547E11 /* Support Files */,
+				4EB7E420806ECC0FAAFC9A67A01A4168 /* UIGestureRecognizer */,
+				1EA8DF6394CE69D8E0CD2C0654A6E0A1 /* UIScrollView */,
+				57F8A27F7CF961A75BBE7CC2E9763DDF /* UIView */,
+				7885CDF767BC96C2EE9443185032DD54 /* UIViewController */,
+			);
+			name = StreamKit;
+			path = StreamKit;
+			sourceTree = "<group>";
+		};
+		122DA2E5084A4393C29BE363C764795C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				63B3CC79972520217D789492073FC37D /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1AEBE8174C4112237108E9DF63347DB0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				500EF5E631E5095AB5D6BF57AB0D684F /* FHCategory */,
+				0EFE6ABE6E82966A81B243411DD40939 /* StreamKit */,
+				552072211B34FDA12CC1FB0FFEF6FC4E /* YYModel */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		1EA8DF6394CE69D8E0CD2C0654A6E0A1 /* UIScrollView */ = {
+			isa = PBXGroup;
+			children = (
+				E39F070E27D6497943E732F2D550C4C4 /* UICollectionView+StreamKit.h */,
+				F80FA61F3233FDFAD0136FFBF1EAD090 /* UICollectionView+StreamKit.m */,
+				683EDA4B414CCF952CF0F1198176B24C /* UIScrollView+StreamKit.h */,
+				85FA50409F1A0DEEAFAD509A5A55695D /* UIScrollView+StreamKit.m */,
+				E608890A02369F63F88BBEC8BA3BAAAC /* UITableView+StreamKit.h */,
+				64234E8D1856B827A187BCE7EF9B5270 /* UITableView+StreamKit.m */,
+				B1A2C26F25FF7FD1EBF5D94FEE824A28 /* UITextView+StreamKit.h */,
+				9DBB048D59A44F87726D524125F2261B /* UITextView+StreamKit.m */,
+			);
+			name = UIScrollView;
+			sourceTree = "<group>";
+		};
+		4AB6C19249C3D8E9CA4DC6F2D5C719DC /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				9B23A7C455D0EC6C1AAF94BAE7DABE73 /* Pods-TMarcoDemo */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		4EB7E420806ECC0FAAFC9A67A01A4168 /* UIGestureRecognizer */ = {
+			isa = PBXGroup;
+			children = (
+				9A0FE87606E49286ACA176FE49803FE2 /* UIGestureRecognizer+StreamKit.h */,
+				F20856169A2AD1EC39FCA3C7E23E6906 /* UIGestureRecognizer+StreamKit.m */,
+				7D4B56B44F9F01DD677AA6C43BEF9C16 /* UILongPressGestureRecognizer+StreamKit.h */,
+				09ACD6B58000E02107EF4C7598FF1A0C /* UILongPressGestureRecognizer+StreamKit.m */,
+				4EA92F6E24A58758682432B89889ED57 /* UIPanGestureRecognizer+StreamKit.h */,
+				4C53F28875EDBC1BC280C3E954725B41 /* UIPanGestureRecognizer+StreamKit.m */,
+				A40FC966241846B3A4193B31B5DAD253 /* UIPinchGestureRecognizer+StreamKit.h */,
+				98EDA1C2DEDE2EEEC20B5B0B06AB9062 /* UIPinchGestureRecognizer+StreamKit.m */,
+				F015493B9B9129CCC226AFF1D61A306B /* UIRotationGestureRecognizer+StreamKit.h */,
+				CF63EDCF6838554CC35E6A5099192478 /* UIRotationGestureRecognizer+StreamKit.m */,
+				131DF7EF1F034E18B9F215AC44E2A709 /* UISwipeGestureRecognizer+StreamKit.h */,
+				BE811D03BCA95E17669E17A013B93934 /* UISwipeGestureRecognizer+StreamKit.m */,
+				E1C38672250E15D8454BBBA5A91513E9 /* UITapGestureRecognizer+StreamKit.h */,
+				CB5C06878680C1ABEC282CDE2400134D /* UITapGestureRecognizer+StreamKit.m */,
+			);
+			name = UIGestureRecognizer;
+			sourceTree = "<group>";
+		};
+		500EF5E631E5095AB5D6BF57AB0D684F /* FHCategory */ = {
+			isa = PBXGroup;
+			children = (
+				22BC921C94D212D887ADD816E0BC04D4 /* FHCategory.h */,
+				3A46BCD8879D46F6044E2F85AF3C1027 /* NSArray+FHExtend.h */,
+				29ECB65618A9CF6CF9DE363821E3F90E /* NSArray+FHExtend.m */,
+				12481920F5DE8FA160E408F1095D49BE /* NSData+FHExtend.h */,
+				6D687DB59682B64F54EFAFA1D16A7E4C /* NSData+FHExtend.m */,
+				D0615844750F0D4C027548F0DEBD82A6 /* NSDictionary+FHExtend.h */,
+				DE0C5CD7F89C86AB8D10C9616021CE6B /* NSDictionary+FHExtend.m */,
+				9288FDDD482D5D28D5941BD5AD7D3F50 /* NSNumber+FHExtend.h */,
+				02C2FD8066D7854037152995D3CAD72A /* NSNumber+FHExtend.m */,
+				AC05CD58CDBF16D4C6E9F49A24644DCB /* NSString+FHExtend.h */,
+				DE383D458EBD19B87FDEB693F8EA31E9 /* NSString+FHExtend.m */,
+				0CF096FFD79F3258829DB5E6CA7D36ED /* UIImage+FHExtend.h */,
+				07B9DA1E50279EC19C9AECC13DEDC3EE /* UIImage+FHExtend.m */,
+				F320C8818821659B00A5AF9D92969D24 /* UIView+FHExtend.h */,
+				89EEA5748FE0974676DBB974A22C7B1B /* UIView+FHExtend.m */,
+				85FF3489031F2ECFEF0DCEC920B55D47 /* Support Files */,
+			);
+			name = FHCategory;
+			path = FHCategory;
+			sourceTree = "<group>";
+		};
+		552072211B34FDA12CC1FB0FFEF6FC4E /* YYModel */ = {
+			isa = PBXGroup;
+			children = (
+				F76B73D819FC6A8C962D594CF4B58085 /* NSObject+YYModel.h */,
+				C328531B7271F4FBF77151B8327365AF /* NSObject+YYModel.m */,
+				4A2B0E38295E066EFA49D51E01195C6D /* YYClassInfo.h */,
+				55FE74D96A08E2FB885995BFD45BBD9E /* YYClassInfo.m */,
+				E85309733CF16280868C6B152A7561D3 /* YYModel.h */,
+				7D9CE8A4818ED9DD7A0344F1F555B4B7 /* Support Files */,
+			);
+			name = YYModel;
+			path = YYModel;
+			sourceTree = "<group>";
+		};
+		57F8A27F7CF961A75BBE7CC2E9763DDF /* UIView */ = {
+			isa = PBXGroup;
+			children = (
+				1717D8F9C3BF128A3FC7509596998755 /* UIButton+StreamKit.h */,
+				98329A9D102FD330769D24F83EBDD3C3 /* UIButton+StreamKit.m */,
+				965F5C479B3FAA519597495B80546114 /* UIControl+StreamKit.h */,
+				0CD50D168B05C91D8D16FD4A57A59533 /* UIControl+StreamKit.m */,
+				F8AC832BA3B7A478359ED6682A27E19F /* UIImageView+StreamKit.h */,
+				F7B33CD19B27483B30C8BE8010CDFE41 /* UIImageView+StreamKit.m */,
+				81799CBC9987C6D2EE2280945A494DBD /* UIInputView+StreamKit.h */,
+				7DCB1886526F867783FE172258E6E214 /* UIInputView+StreamKit.m */,
+				ECDD88B92BA53F2DF8522B6FA7B6D365 /* UILabel+StreamKit.h */,
+				8CADF7BF925275738E36203C56FF3BEF /* UILabel+StreamKit.m */,
+				B25654F453AAF152BABB4BDFD6C44B08 /* UIProgressView+StreamKit.h */,
+				6781889141BBA255C068CE029119AE8C /* UIProgressView+StreamKit.m */,
+				CBA4406642A4E96CA30960F1689D37BD /* UISearchBar+StreamKit.h */,
+				53B1E7EC159E8FAB2BAD39499B928152 /* UISearchBar+StreamKit.m */,
+				49425C51EC6660CE1ED7CB296A33E475 /* UISwitch+StreamKit.h */,
+				1C665F246D4418B0B9CA92DAC9026673 /* UISwitch+StreamKit.m */,
+				42A0293E03355E0DBBCCD2377A04C98C /* UITextField+StreamKit.h */,
+				63AFD3243243B7A4AB4E28683FB3D995 /* UITextField+StreamKit.m */,
+				B447B4F82B58E963AA2DDE8D5ED88F7E /* UIView+StreamKit.h */,
+				CCE3782996957BBA9BE0A9D7A6568793 /* UIView+StreamKit.m */,
+			);
+			name = UIView;
+			sourceTree = "<group>";
+		};
+		63B3CC79972520217D789492073FC37D /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				6BA9B7D5E3FCCC6CE4A79E131788AAEC /* CoreFoundation.framework */,
+				537CB3D5CDFEC3E84F8F29AB933EC4EC /* Foundation.framework */,
+				C0C9D9D043E88EDC9EEA08EF4794CAB0 /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		66C72C430892BADA3760565ADC024C0F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7BFC09395A838449A7DCA237818B5635 /* libFHCategory.a */,
+				1E531DC3D4ABDC0134AF8CDC5BFF9D1B /* libPods-TMarcoDemo.a */,
+				B052491BB22480754F46092AB54D8EEE /* libStreamKit.a */,
+				95907513629F698AE532EF5691F3C11E /* libYYModel.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7885CDF767BC96C2EE9443185032DD54 /* UIViewController */ = {
+			isa = PBXGroup;
+			children = (
+				848A8DBEA43D1B6743BC07F834BD840C /* UIImagePickerController+StreamKit.h */,
+				AC4BCE8800DB4EAA1BD4FD1576826069 /* UIImagePickerController+StreamKit.m */,
+				4F00FAA69B6B452E53122D82744744E7 /* UIPageViewController+StreamKit.h */,
+				2118A51AE0B18F43F781FE2E12424BD2 /* UIPageViewController+StreamKit.m */,
+			);
+			name = UIViewController;
+			sourceTree = "<group>";
+		};
+		7D9CE8A4818ED9DD7A0344F1F555B4B7 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				F04A83C7995291DACFF133800748059C /* YYModel.xcconfig */,
+				CCA84E5DE05059C212747FCAEAF62CC5 /* YYModel-dummy.m */,
+				344803E5E07F54DABB9CC4E336434A61 /* YYModel-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/YYModel";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				122DA2E5084A4393C29BE363C764795C /* Frameworks */,
+				1AEBE8174C4112237108E9DF63347DB0 /* Pods */,
+				66C72C430892BADA3760565ADC024C0F /* Products */,
+				4AB6C19249C3D8E9CA4DC6F2D5C719DC /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		85FF3489031F2ECFEF0DCEC920B55D47 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				A723F1557B37D66B1AB6B3473DF5E55C /* FHCategory.xcconfig */,
+				6296C2F92AE4F539DD912661F92A6281 /* FHCategory-dummy.m */,
+				6F6A43423565742D4988BF5F530248C3 /* FHCategory-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/FHCategory";
+			sourceTree = "<group>";
+		};
+		94DDBE8AD1FF71AE5FEE1AF168568D33 /* ReactiveX */ = {
+			isa = PBXGroup;
+			children = (
+				AA373B0751C749CA6F0C80E3E48EDBB5 /* NSObject+ReactiveX.h */,
+				9A790B6933E982B77D739BA1A6567FCB /* NSObject+ReactiveX.m */,
+				BA5FDA344B19B620DFFF6B116ABA50AA /* SKSignal.h */,
+				34A31A524BF576ECD7332DB7AB68FBD2 /* SKSignal.m */,
+				AC66089DC1743C1F4DB9103BEC6A9EFC /* SKSubscriber.h */,
+				22126906127631634280B5894D430A59 /* SKSubscriber.m */,
+				FFA55ADAD17B16F5F71312395120BBDC /* StreamObserver.h */,
+				5FC3A9DA54A455BBC60A6021649229FB /* StreamObserver.m */,
+				68F3D03A0E0381FC52EDE6EAA1F3F9B9 /* UIControl+ReactiveX.h */,
+				4E615E9F32780CAF21ACF7D8A34DF672 /* UIControl+ReactiveX.m */,
+				2B89B6FB3B6D508175BE1F93980EB831 /* UIGestureRecognizer+ReactiveX.h */,
+				1A523731F1C7812576A4E8341C4D63D5 /* UIGestureRecognizer+ReactiveX.m */,
+				A828312B7602ED09846C74DEF2429D77 /* UIScrollView+ReactiveX.h */,
+				B5F96D0EFED745486FE8A61F94CADF46 /* UIScrollView+ReactiveX.m */,
+				C17CCC5ADB00FCB2C1A0D931985BAE80 /* UISearchBar+ReactiveX.h */,
+				C704FEF1E17B8DAD6C853322DB2CC71A /* UISearchBar+ReactiveX.m */,
+				CF5253AC9A6AEE70FA3EECB3EDCCE20F /* UITextField+ReactiveX.h */,
+				9731758C9960AC284440BD8F62C77AE0 /* UITextField+ReactiveX.m */,
+				4F352D4E18FA43332F0769F1A739F113 /* UITextView+ReactiveX.h */,
+				9B9B04CB16D63CE07790B97E53F21C2E /* UITextView+ReactiveX.m */,
+				81BD5F74B292C3582BBF54EC15AB2B88 /* UIView+ReactiveX.h */,
+				A70C5095791763BA1EBFDD000089D6C0 /* UIView+ReactiveX.m */,
+			);
+			name = ReactiveX;
+			sourceTree = "<group>";
+		};
+		9687437FF5B29BD3BB85FE3F24F7AA8F /* NSObject */ = {
+			isa = PBXGroup;
+			children = (
+				D1AB55D3D7B6483A4DE3FBC4D3FB7D51 /* NSNotificationCenter+StreamKit.h */,
+				5C970ED6D27A9155DDBE6E4FCF670204 /* NSNotificationCenter+StreamKit.m */,
+				0659CE6CA43E14D550A4FD3369EAEFF4 /* NSObject+StreamKit.h */,
+				3B9CFC6AB7FB9D9910DF220340C39633 /* NSObject+StreamKit.m */,
+				7930A1BB6FA410D1974095E7620F06A9 /* NSString+StreamKit.h */,
+				E7B74DCD0C82E271B4342FBCE3465FFD /* NSString+StreamKit.m */,
+				BFBED103003468FF9B10BD70FE36560D /* UIAlertAction+StreamKit.h */,
+				F7B8DFF1FD8852C82D5D6EE739BD3D9D /* UIAlertAction+StreamKit.m */,
+			);
+			name = NSObject;
+			sourceTree = "<group>";
+		};
+		9B23A7C455D0EC6C1AAF94BAE7DABE73 /* Pods-TMarcoDemo */ = {
+			isa = PBXGroup;
+			children = (
+				F07668874B89E2B07D33D2A01AF2EEB5 /* Pods-TMarcoDemo-acknowledgements.markdown */,
+				6D8CB462DBF72D820D22DB7CB532248A /* Pods-TMarcoDemo-acknowledgements.plist */,
+				6FBCF6CAD78D0C616778C82F125307F2 /* Pods-TMarcoDemo-dummy.m */,
+				93443BA30C9318C8AC485FA08362B35E /* Pods-TMarcoDemo-frameworks.sh */,
+				51FE95149BB504ADD493B310E7D684AB /* Pods-TMarcoDemo-resources.sh */,
+				DFB1F2AA2D1C863AC3FFAA814ECDC166 /* Pods-TMarcoDemo.debug.xcconfig */,
+				71A56FF52D38267E91786E6D51D9E669 /* Pods-TMarcoDemo.release.xcconfig */,
+			);
+			name = "Pods-TMarcoDemo";
+			path = "Target Support Files/Pods-TMarcoDemo";
+			sourceTree = "<group>";
+		};
+		E7744039AF8C824F53A416ABDD672AB4 /* Marco */ = {
+			isa = PBXGroup;
+			children = (
+				9667E6148ADC989326605F610DFDE099 /* SKKeyPathMarco.h */,
+				6F410DA147020F628C1E2ACB6D07C76B /* SKMetaMarco.h */,
+				D42FBFABF922CD64B2C183298A14AE20 /* SKObjectifyMarco.h */,
+			);
+			name = Marco;
+			sourceTree = "<group>";
+		};
+		E882F0FFC782C8C1FE5E80012A547E11 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				0276D95AA47B086547F9F3D19DE7A9B9 /* StreamKit.xcconfig */,
+				DA609FBF4F261E6F5AE0E8162C7CEDC4 /* StreamKit-dummy.m */,
+				C1FEEF522DBA459C32A3E8E2A3A7553C /* StreamKit-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/StreamKit";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		54C6D3F2337CC827F826A24306A0260B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				984AB95D16BE9CFE5F3562CD985ECDE7 /* FHCategory.h in Headers */,
+				8E2AD7C46942BF58BE6B491575AD9C4B /* NSArray+FHExtend.h in Headers */,
+				66CB6242E5B6185C3B005ADAAAC1FDB8 /* NSData+FHExtend.h in Headers */,
+				7CBECD5BC2626E760BFF962A3F81C344 /* NSDictionary+FHExtend.h in Headers */,
+				25A2F5A8CDE9793F275414D027F620D9 /* NSNumber+FHExtend.h in Headers */,
+				0637E95C9B5982054D9B6EE882552D94 /* NSString+FHExtend.h in Headers */,
+				9E0E10D05489080AA437B9FB5340A97C /* UIImage+FHExtend.h in Headers */,
+				2DCBEB03FF3A2A983331DAD2F0F73F03 /* UIView+FHExtend.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF369EEFB38DABB119DADC86658DAE7E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				88A02AA9141F5E56FEF2F1C5175D2218 /* NSObject+YYModel.h in Headers */,
+				7AAF62A5D16671D48AB12714196D4860 /* YYClassInfo.h in Headers */,
+				C79778EE86AE4DF1E87A3C12ACD1AE5D /* YYModel.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F4CF6D5EBD7A0C74A8DE92866A5D3896 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B30501365C097557E28A1AD69FCDA758 /* NSNotificationCenter+StreamKit.h in Headers */,
+				CE3E944D55617E63E9F15977F40A91D2 /* NSObject+ReactiveX.h in Headers */,
+				D54086A330E1824151137E900940CC17 /* NSObject+StreamKit.h in Headers */,
+				439F2284A086EBD8626EAFE763C2EC0F /* NSString+StreamKit.h in Headers */,
+				8FFDD424F5CE18166F4DDD2AC5F1454F /* SKKeyPathMarco.h in Headers */,
+				E0D4AA8A460C1B76380E425B209769E0 /* SKMetaMarco.h in Headers */,
+				7E601A34BF6A9271C7FFD5611A3CDFE7 /* SKObjectifyMarco.h in Headers */,
+				98A0822050F344E68C5BE18E2EC6EA63 /* SKSignal.h in Headers */,
+				D50ED6E1866D9D2926EC43959421E233 /* SKSubscriber.h in Headers */,
+				A009E7AF8452E2C5EB9A5DBBB4FA703F /* StreamKit.h in Headers */,
+				AE1D9EF73922ACA1F97942F81A25EF23 /* StreamObserver.h in Headers */,
+				5BF8DD6F199ABC709D182461DC963D69 /* UIAlertAction+StreamKit.h in Headers */,
+				DC8BC293547679DA533762110D238C42 /* UIButton+StreamKit.h in Headers */,
+				279CA1BC3ADE734B4C469C600E2F8B3F /* UICollectionView+StreamKit.h in Headers */,
+				FF70F9BE82AFB4D11DCFDD19C74B22F2 /* UIControl+ReactiveX.h in Headers */,
+				6E9215FE11FCC11CA23DD0B6A3C85814 /* UIControl+StreamKit.h in Headers */,
+				6CBF04A560D4905D956267A1D1728F46 /* UIGestureRecognizer+ReactiveX.h in Headers */,
+				EA61DD00B411194BF71C631E689E3EF1 /* UIGestureRecognizer+StreamKit.h in Headers */,
+				3CC6AFD9B140BAC0E04D400F3243F693 /* UIImagePickerController+StreamKit.h in Headers */,
+				1B6D095FCECE95C4089F5B5557D8079B /* UIImageView+StreamKit.h in Headers */,
+				549409504B0BED2851D20BF1F3BC1DCA /* UIInputView+StreamKit.h in Headers */,
+				5AC1CA5237A6BC27E92A5C54B4E1EFFC /* UILabel+StreamKit.h in Headers */,
+				EFF9A44538C729F9B512A3EF558AEB08 /* UILongPressGestureRecognizer+StreamKit.h in Headers */,
+				0A29F15B931C6AEBB87C354EBAF75AD7 /* UIPageViewController+StreamKit.h in Headers */,
+				D7F5D731C6AB9B3DC83CC98131B28A8D /* UIPanGestureRecognizer+StreamKit.h in Headers */,
+				E6B1BF8B6E873668001080453C0608ED /* UIPinchGestureRecognizer+StreamKit.h in Headers */,
+				062D289BA89716F6F0E197A17CD02990 /* UIProgressView+StreamKit.h in Headers */,
+				D6D894E1280C8DBB5DDAF84DB140F399 /* UIRotationGestureRecognizer+StreamKit.h in Headers */,
+				43969098C92690A6961FDC5AEC5D9B27 /* UIScrollView+ReactiveX.h in Headers */,
+				7170304CE1DB2D43738213C40B6E0A5D /* UIScrollView+StreamKit.h in Headers */,
+				3ABA0539FF07426611A0AD3AD1E8EF67 /* UISearchBar+ReactiveX.h in Headers */,
+				B8292952EE90A0D0D3688F1FFF62647C /* UISearchBar+StreamKit.h in Headers */,
+				D99C1A62894A49E37145C6E590CC900E /* UISwipeGestureRecognizer+StreamKit.h in Headers */,
+				1075D4E2A2FDFCBF21A7956DECCC8A59 /* UISwitch+StreamKit.h in Headers */,
+				4226156CCEEAD8D986EDB4EF393BAD37 /* UITableView+StreamKit.h in Headers */,
+				C1CADD471F82A59A3256DC8739237C93 /* UITapGestureRecognizer+StreamKit.h in Headers */,
+				3F930A31F071C3BD879FC92D1FE29D2B /* UITextField+ReactiveX.h in Headers */,
+				4C0143326B45F63241A533B3A924199C /* UITextField+StreamKit.h in Headers */,
+				1DFE532DDA0ABDF16C85127659E7AEE6 /* UITextView+ReactiveX.h in Headers */,
+				A10A05A22B6E5D36A15CA7211709CB85 /* UITextView+StreamKit.h in Headers */,
+				60343A8DB7E59289158DC71F0CFD0889 /* UIView+ReactiveX.h in Headers */,
+				5C27425689A89D0695A268DC3FC0234A /* UIView+StreamKit.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		0C7AB5B60BF320C40EC29C015BC5BECC /* FHCategory */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0704EBBB0E63556C100B21CB048B3D8E /* Build configuration list for PBXNativeTarget "FHCategory" */;
+			buildPhases = (
+				A5662E6B9D1D7BF0DD79B9647E8783EF /* Sources */,
+				8AB7084B318CC4BABAE314428100F048 /* Frameworks */,
+				54C6D3F2337CC827F826A24306A0260B /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FHCategory;
+			productName = FHCategory;
+			productReference = 7BFC09395A838449A7DCA237818B5635 /* libFHCategory.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		0D4FC58030AAE2C113A37C7C76B8469F /* YYModel */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 44C2550775FA305634D6059958447511 /* Build configuration list for PBXNativeTarget "YYModel" */;
+			buildPhases = (
+				37C7E314CFD7643D3ADECF74EDD5DF5F /* Sources */,
+				71231A3B6B0156ED84330323A765AF94 /* Frameworks */,
+				AF369EEFB38DABB119DADC86658DAE7E /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YYModel;
+			productName = YYModel;
+			productReference = 95907513629F698AE532EF5691F3C11E /* libYYModel.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		42582E7C23E5008A10BCCF4F171D234B /* Pods-TMarcoDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3EB0CE49EEB66D3B45EE040BB2451B40 /* Build configuration list for PBXNativeTarget "Pods-TMarcoDemo" */;
+			buildPhases = (
+				DF75FBE5C8B9105BD828C242AB08BFFB /* Sources */,
+				4AA73F5FAA2477E03D07297A208F118F /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				373116F363280D0A3769E0ADA19F5CB7 /* PBXTargetDependency */,
+				5B4CA583B16004C4E097F2999AFD43FF /* PBXTargetDependency */,
+				A0FC1B87352FEA8DBAD8C751B543D6F3 /* PBXTargetDependency */,
+			);
+			name = "Pods-TMarcoDemo";
+			productName = "Pods-TMarcoDemo";
+			productReference = 1E531DC3D4ABDC0134AF8CDC5BFF9D1B /* libPods-TMarcoDemo.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		50C4BF524AC0B15DECB3EAE157267218 /* StreamKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7A4A72B01DB950D9D290987EBCE0C57A /* Build configuration list for PBXNativeTarget "StreamKit" */;
+			buildPhases = (
+				DD9B60CA09380554179884E2775DAAA8 /* Sources */,
+				1BD2BCED47A24A74563DA57B0E3C7D84 /* Frameworks */,
+				F4CF6D5EBD7A0C74A8DE92866A5D3896 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = StreamKit;
+			productName = StreamKit;
+			productReference = B052491BB22480754F46092AB54D8EEE /* libStreamKit.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 66C72C430892BADA3760565ADC024C0F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0C7AB5B60BF320C40EC29C015BC5BECC /* FHCategory */,
+				42582E7C23E5008A10BCCF4F171D234B /* Pods-TMarcoDemo */,
+				50C4BF524AC0B15DECB3EAE157267218 /* StreamKit */,
+				0D4FC58030AAE2C113A37C7C76B8469F /* YYModel */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		37C7E314CFD7643D3ADECF74EDD5DF5F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9D5E55A543559AB69A17E0FCE88B0A4F /* NSObject+YYModel.m in Sources */,
+				B04D3EE4008911CA94B6E4670B2F58D1 /* YYClassInfo.m in Sources */,
+				C04897CA334B462EF83B7326CC5D5A9C /* YYModel-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A5662E6B9D1D7BF0DD79B9647E8783EF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				014A6F93EBC758F581A3FC86CD54DEE6 /* FHCategory-dummy.m in Sources */,
+				BE7C39D15BF7C4FE34C333EA1021B1EB /* NSArray+FHExtend.m in Sources */,
+				3BF3BB4217B2BD8482F07EBF8CF1A8C6 /* NSData+FHExtend.m in Sources */,
+				5909B0EDC928798DDA8640CD7E28292E /* NSDictionary+FHExtend.m in Sources */,
+				D51FBF1B9FB3C69534104243ED7C838C /* NSNumber+FHExtend.m in Sources */,
+				DBC13C0FE8F6C348CEFBB39B132D2494 /* NSString+FHExtend.m in Sources */,
+				27D5760A48938E05E72ED193067D0E0D /* UIImage+FHExtend.m in Sources */,
+				7621134975B811A2A3C069F5BEE481D8 /* UIView+FHExtend.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD9B60CA09380554179884E2775DAAA8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4B13947F7B6DCD918ACF010E4AFF78E3 /* NSNotificationCenter+StreamKit.m in Sources */,
+				BC57AA2A8B1C04750AA25EF70F6BA0E3 /* NSObject+ReactiveX.m in Sources */,
+				A702C950BA835DF2295E7FDFC687445B /* NSObject+StreamKit.m in Sources */,
+				4945D4A0FF3D70346F3C97E9148D7E6C /* NSString+StreamKit.m in Sources */,
+				3F3A7250E01F2D714A41E53D8401BE2D /* SKSignal.m in Sources */,
+				B2D3A63FE8E25F8DAFA1B2C510E3361F /* SKSubscriber.m in Sources */,
+				F59623E59299399136CD12A4CEB3FF92 /* StreamKit-dummy.m in Sources */,
+				218BC4912745D67E6DFDEE19C515423E /* StreamObserver.m in Sources */,
+				866E274D94163A067AC6559B32A7717E /* UIAlertAction+StreamKit.m in Sources */,
+				79940355D17FC4FA5268F7A0BE1436C2 /* UIButton+StreamKit.m in Sources */,
+				E9142C3868DD57957B16B9DA3B08DE24 /* UICollectionView+StreamKit.m in Sources */,
+				335560506DF47427F83AE3D68009457F /* UIControl+ReactiveX.m in Sources */,
+				7E6A06E2B1D1DD99241ABFD60C3035C8 /* UIControl+StreamKit.m in Sources */,
+				B032310F4DB0B44F9226BDB3EB94BF71 /* UIGestureRecognizer+ReactiveX.m in Sources */,
+				887350FDEB3BF490A55F5A1CCB70C494 /* UIGestureRecognizer+StreamKit.m in Sources */,
+				0D7491616324F072ABB85B7407E0F0F8 /* UIImagePickerController+StreamKit.m in Sources */,
+				8F869D0BDFF32DA82A8849070F6EE115 /* UIImageView+StreamKit.m in Sources */,
+				D6BA52139CEDFD4D63C314A871278C0A /* UIInputView+StreamKit.m in Sources */,
+				B63800C3FB5F9424156136A95A1280FA /* UILabel+StreamKit.m in Sources */,
+				98579070E1B371D66157ED823E97CA89 /* UILongPressGestureRecognizer+StreamKit.m in Sources */,
+				2565510EADA79FB923907B7FCD91741C /* UIPageViewController+StreamKit.m in Sources */,
+				A661F2F645E68EA2F18A43C5C1212198 /* UIPanGestureRecognizer+StreamKit.m in Sources */,
+				7AA38CE51BB86A8332709318C2C28FBF /* UIPinchGestureRecognizer+StreamKit.m in Sources */,
+				7232C2DE5FC94A6D48D821F625B59845 /* UIProgressView+StreamKit.m in Sources */,
+				449717DD96EBE7D6E3DE1F180E493665 /* UIRotationGestureRecognizer+StreamKit.m in Sources */,
+				B18B3474786D698D8E1908B8C65C8A9C /* UIScrollView+ReactiveX.m in Sources */,
+				9318A289703DEBFCCC736B01E0829876 /* UIScrollView+StreamKit.m in Sources */,
+				81F3AEBA6CEDE20626B4585CF2CDD175 /* UISearchBar+ReactiveX.m in Sources */,
+				00990D76E3BF625E9835539B97A14ED4 /* UISearchBar+StreamKit.m in Sources */,
+				5702C652707904A06318FFABDD60BE0E /* UISwipeGestureRecognizer+StreamKit.m in Sources */,
+				1D5CDDCBDA96787978F00F88FFCBEFC3 /* UISwitch+StreamKit.m in Sources */,
+				1717156D5B7591E835F6221F03D9666B /* UITableView+StreamKit.m in Sources */,
+				2AB8CAA2048F339EDAE62580A238386E /* UITapGestureRecognizer+StreamKit.m in Sources */,
+				E80C6083ACEE68C9C846ABD896A0CC46 /* UITextField+ReactiveX.m in Sources */,
+				A2D76661A77B81BA47C55FA7C2BD6DB5 /* UITextField+StreamKit.m in Sources */,
+				92DBC81B422976B87F11EBD1B820FC1F /* UITextView+ReactiveX.m in Sources */,
+				CCED5327B5B5E0AAB03AEF097C85D631 /* UITextView+StreamKit.m in Sources */,
+				559934BECE0614C4F825E34E9C8D6B36 /* UIView+ReactiveX.m in Sources */,
+				352182B68323995B0DE48792A2E701E0 /* UIView+StreamKit.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF75FBE5C8B9105BD828C242AB08BFFB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7439D3A94244C7E50DE5A0E1D37CAE15 /* Pods-TMarcoDemo-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		373116F363280D0A3769E0ADA19F5CB7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = FHCategory;
+			target = 0C7AB5B60BF320C40EC29C015BC5BECC /* FHCategory */;
+			targetProxy = 8C278A7AC44485CBB2A3626959F7B010 /* PBXContainerItemProxy */;
+		};
+		5B4CA583B16004C4E097F2999AFD43FF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = StreamKit;
+			target = 50C4BF524AC0B15DECB3EAE157267218 /* StreamKit */;
+			targetProxy = D02744FF33FD6648BF7FF0FB9E447D5A /* PBXContainerItemProxy */;
+		};
+		A0FC1B87352FEA8DBAD8C751B543D6F3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = YYModel;
+			target = 0D4FC58030AAE2C113A37C7C76B8469F /* YYModel */;
+			targetProxy = 2CC260D3E6F30D11AF5410BEAB056CCF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		166E2CAC58E8608AD59A6F0B71C9C3E0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		29272C24BFD9028766D36A0FD6310C92 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0276D95AA47B086547F9F3D19DE7A9B9 /* StreamKit.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/StreamKit/StreamKit-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		4F5EB8CDCA52DFACC1E97EC83219BD87 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0276D95AA47B086547F9F3D19DE7A9B9 /* StreamKit.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/StreamKit/StreamKit-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		575537077A23C62697545606CBCCAEF0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A723F1557B37D66B1AB6B3473DF5E55C /* FHCategory.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/FHCategory/FHCategory-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		769E05DC0B7D974B815CFCC69A14BE0A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A723F1557B37D66B1AB6B3473DF5E55C /* FHCategory.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/FHCategory/FHCategory-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		A2D47D3546C0AEB8F89E1E35B89E6DCC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F04A83C7995291DACFF133800748059C /* YYModel.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/YYModel/YYModel-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		AA0B5BDEB018901CD8F88AAD05F5B893 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AF843DA08E7D0EED2C77983E3B7DBA69 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DFB1F2AA2D1C863AC3FFAA814ECDC166 /* Pods-TMarcoDemo.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		D7C48287EEBFABA83167077087CA7078 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 71A56FF52D38267E91786E6D51D9E669 /* Pods-TMarcoDemo.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		DA58F2497222394F4C0BC5D5B1F993F5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F04A83C7995291DACFF133800748059C /* YYModel.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/YYModel/YYModel-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0704EBBB0E63556C100B21CB048B3D8E /* Build configuration list for PBXNativeTarget "FHCategory" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				575537077A23C62697545606CBCCAEF0 /* Debug */,
+				769E05DC0B7D974B815CFCC69A14BE0A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				166E2CAC58E8608AD59A6F0B71C9C3E0 /* Debug */,
+				AA0B5BDEB018901CD8F88AAD05F5B893 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3EB0CE49EEB66D3B45EE040BB2451B40 /* Build configuration list for PBXNativeTarget "Pods-TMarcoDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF843DA08E7D0EED2C77983E3B7DBA69 /* Debug */,
+				D7C48287EEBFABA83167077087CA7078 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		44C2550775FA305634D6059958447511 /* Build configuration list for PBXNativeTarget "YYModel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A2D47D3546C0AEB8F89E1E35B89E6DCC /* Debug */,
+				DA58F2497222394F4C0BC5D5B1F993F5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7A4A72B01DB950D9D290987EBCE0C57A /* Build configuration list for PBXNativeTarget "StreamKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4F5EB8CDCA52DFACC1E97EC83219BD87 /* Debug */,
+				29272C24BFD9028766D36A0FD6310C92 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

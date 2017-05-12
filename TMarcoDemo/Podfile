@@ -1,0 +1,5 @@
+target ‘TMarcoDemo’ do
+    pod 'YYModel'
+    pod 'StreamKit'
+    pod 'FHCategory'
+end
