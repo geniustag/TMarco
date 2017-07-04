@@ -23,7 +23,7 @@
 
 #if __has_include(<YYModel/YYModel.h>)
 #define modelify(Class,JSON) \
-    [@classify(Class) yy_modelWithDictionary:JSON]
+    [@classify(Class) yy_modelWithJSON:JSON]
 
 #define modelsify(Class,JSON) \
     [NSArray yy_modelArrayWithClass:@classify(Class) json:JSON]
