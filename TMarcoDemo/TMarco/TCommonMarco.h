@@ -53,6 +53,6 @@
 
 #define view_center_y(view) (view).center.y
 
-#define kSCALE((x))  kWIDTH / 375 * (x)
+#define kSCALE(x)  kWIDTH / 375 * (x)
 
 #endif /* TCommonMarco_h */
