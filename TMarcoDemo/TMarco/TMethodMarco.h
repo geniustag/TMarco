@@ -54,7 +54,7 @@
 #define isEqualString(_1,_2) \
     [_1 isEqualToString:_2]
 
-#define isLogin [TUserModel shareInstance].access_token.length>0
+#define isLogin(x) [x shareInstance].access_token.length>0
 
 #ifdef DEBUG
 #define TLog(fmt, ...) NSLog((@"%s [Line %d] " fmt), __PRETTY_FUNCTION__, __LINE__, ##__VA_ARGS__);
